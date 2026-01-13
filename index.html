@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>不規則動詞 練習アプリ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>不規則動詞 練習アプリ</h1>
+        
+        <div class="stats">
+            <p>進行状況: <span id="progress">0/40</span></p>
+            <p>正解数: <span id="correct">0</span></p>
+            <p>不正解数: <span id="incorrect">0</span></p>
+        </div>
+
+        <div class="quiz-card">
+            <h2>原形</h2>
+            <div class="word-display" id="baseForm"></div>
+            <div class="meaning" id="meaning"></div>
+
+            <div class="input-group">
+                <label for="pastForm">過去形:</label>
+                <input type="text" id="pastForm" autocomplete="off">
+            </div>
+
+            <div class="input-group">
+                <label for="pastParticiple">過去分詞:</label>
+                <input type="text" id="pastParticiple" autocomplete="off">
+            </div>
+
+            <button id="checkBtn" class="btn">確認</button>
+            <button id="nextBtn" class="btn" style="display: none;">次へ</button>
+
+            <div id="result" class="result"></div>
+        </div>
+
+        <button id="resetBtn" class="btn btn-reset">最初から</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
