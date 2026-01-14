@@ -12,9 +12,6 @@ class Sidebar {
       <div class="sidebar" id="sidebar">
         <div class="sidebar-header">
           <h3>設定</h3>
-          <button class="sidebar-toggle" id="sidebar-toggle">
-            <span class="toggle-icon">☰</span>
-          </button>
         </div>
 
         <div class="sidebar-content">
@@ -116,17 +113,27 @@ class Sidebar {
   }
 
   /**
-   * サイドバートグルのイベントリスナーを設定
+   * サイドバートグル機能を設定
    */
   static setupToggle() {
-    const toggle = document.getElementById('sidebar-toggle');
     const sidebar = document.getElementById('sidebar');
-    
-    if (toggle && sidebar) {
-      toggle.addEventListener('click', () => {
-        sidebar.classList.toggle('collapsed');
+    const toggleBtn = document.getElementById('mobile-menu-toggle');
+
+    if (toggleBtn) {
+      toggleBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        sidebar.classList.toggle('open');
       });
     }
+
+    // 背景クリックで閉じる
+    document.addEventListener('click', (e) => {
+      if (sidebar.classList.contains('open') && 
+          !sidebar.contains(e.target) && 
+          !toggleBtn?.contains(e.target)) {
+        sidebar.classList.remove('open');
+      }
+    });
   }
 
   /**
