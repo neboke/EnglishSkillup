@@ -194,6 +194,8 @@ class QuizCard {
 }
 
 // ブラウザとNode.js（Jest）の両方で動作するようにエクスポート
+export default QuizCard;
+
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = QuizCard;
 }

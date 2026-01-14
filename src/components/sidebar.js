@@ -149,6 +149,8 @@ class Sidebar {
 }
 
 // ブラウザとNode.js（Jest）の両方で動作するようにエクスポート
+export default Sidebar;
+
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = Sidebar;
 }

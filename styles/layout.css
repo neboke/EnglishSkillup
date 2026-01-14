@@ -22,21 +22,22 @@
 
 .app-header {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   background: white;
-  padding: 30px;
+  padding: 15px 20px;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .app-header h1 {
   color: #667eea;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
+  font-size: 1.5rem;
 }
 
 .app-header .subtitle {
   color: #888;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 /* クイズカードコンテナ */

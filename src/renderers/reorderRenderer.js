@@ -66,6 +66,8 @@ class ReorderRenderer {
 }
 
 // ブラウザとNode.js（Jest）の両方で動作するようにエクスポート
+export default ReorderRenderer;
+
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = ReorderRenderer;
 }

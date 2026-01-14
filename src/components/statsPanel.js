@@ -85,6 +85,8 @@ class StatsPanel {
 }
 
 // ブラウザとNode.js（Jest）の両方で動作するようにエクスポート
+export default StatsPanel;
+
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = StatsPanel;
 }

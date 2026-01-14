@@ -181,6 +181,8 @@ class StorageManager {
 }
 
 // ブラウザとNode.js（Jest）の両方で動作するようにエクスポート
+export default StorageManager;
+
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = StorageManager;
 }

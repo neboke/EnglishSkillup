@@ -75,6 +75,8 @@ class VerbRenderer {
 }
 
 // ブラウザとNode.js（Jest）の両方で動作するようにエクスポート
+export default VerbRenderer;
+
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = VerbRenderer;
 }

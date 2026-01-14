@@ -64,6 +64,8 @@ class ChoiceRenderer {
 }
 
 // ブラウザとNode.js（Jest）の両方で動作するようにエクスポート
+export default ChoiceRenderer;
+
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = ChoiceRenderer;
 }

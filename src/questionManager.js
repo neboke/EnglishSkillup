@@ -124,6 +124,8 @@ class QuestionManager {
 }
 
 // ブラウザとNode.js（Jest）の両方で動作するようにエクスポート
+export default QuestionManager;
+
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = QuestionManager;
 }
