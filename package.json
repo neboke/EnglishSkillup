@@ -1,0 +1,31 @@
+{
+  "name": "englishword",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "serve": "npx serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neboke/EnglishSkillup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/neboke/EnglishSkillup/issues"
+  },
+  "homepage": "https://github.com/neboke/EnglishSkillup#readme",
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "jest": "^30.2.0",
+    "jest-environment-jsdom": "^30.2.0",
+    "jsdom": "^27.4.0"
+  }
+}

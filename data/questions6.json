@@ -1,0 +1,16 @@
+[
+  {"id": "reorder_001", "type": "reorder", "prompt": "あなたは学生ですね", "template": "You are __0__ __1__, aren't you?", "blanks": ["a", "student"], "category": "tag_questions", "difficulty": "medium"},
+  {"id": "reorder_002", "type": "reorder", "prompt": "彼女は先生ではありませんね", "template": "She isn't __0__ __1__, is she?", "blanks": ["a", "teacher"], "category": "tag_questions", "difficulty": "medium"},
+  {"id": "reorder_003", "type": "reorder", "prompt": "彼らは昨日来ましたね", "template": "They came yesterday, __0__ __1__?", "blanks": ["didn't", "they"], "category": "tag_questions", "difficulty": "medium"},
+  {"id": "reorder_004", "type": "reorder", "prompt": "あなたは英語を話せますね", "template": "You can __0__ __1__, can't you?", "blanks": ["speak", "English"], "category": "tag_questions", "difficulty": "medium"},
+  {"id": "reorder_005", "type": "reorder", "prompt": "私たちは友達です", "template": "We __0__ __1__.", "blanks": ["are", "friends"], "category": "grammar", "difficulty": "easy"},
+  {"id": "reorder_006", "type": "reorder", "prompt": "彼は速く走ることができます", "template": "He can __0__ __1__.", "blanks": ["run", "fast"], "category": "grammar", "difficulty": "easy"},
+  {"id": "reorder_007", "type": "reorder", "prompt": "彼女は美しい絵を描きました", "template": "She __0__ __1__ __2__ picture.", "blanks": ["drew", "a", "beautiful"], "category": "grammar", "difficulty": "medium"},
+  {"id": "reorder_008", "type": "reorder", "prompt": "私は毎朝コーヒーを飲みます", "template": "I __0__ __1__ every morning.", "blanks": ["drink", "coffee"], "category": "grammar", "difficulty": "easy"},
+  {"id": "reorder_009", "type": "reorder", "prompt": "彼らは公園で遊んでいます", "template": "They are __0__ in the __1__.", "blanks": ["playing", "park"], "category": "grammar", "difficulty": "easy"},
+  {"id": "reorder_010", "type": "reorder", "prompt": "あなたは昨日どこに行きましたか", "template": "Where __0__ you __1__ yesterday?", "blanks": ["did", "go"], "category": "grammar", "difficulty": "medium"},
+  {"id": "reorder_011", "type": "reorder", "prompt": "彼女は親切な人です", "template": "She is __0__ __1__ person.", "blanks": ["a", "kind"], "category": "grammar", "difficulty": "easy"},
+  {"id": "reorder_012", "type": "reorder", "prompt": "私たちは映画を見るつもりです", "template": "We are __0__ to __1__ a movie.", "blanks": ["going", "watch"], "category": "grammar", "difficulty": "medium"},
+  {"id": "reorder_013", "type": "reorder", "prompt": "彼は数学が得意です", "template": "He is __0__ __1__ math.", "blanks": ["good", "at"], "category": "grammar", "difficulty": "medium"},
+  {"id": "reorder_014", "type": "reorder", "prompt": "彼女は毎日ピアノを練習します", "template": "She __0__ the __1__ every day.", "blanks": ["practices", "piano"], "category": "grammar", "difficulty": "easy"}
+]

@@ -1,0 +1,16 @@
+[
+  {"id": "verb_029", "type": "verb", "base": "rise", "past": "rose", "pastParticiple": "risen", "meaning": "昇る", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_030", "type": "verb", "base": "see", "past": "saw", "pastParticiple": "seen", "meaning": "見る", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_031", "type": "verb", "base": "shake", "past": "shook", "pastParticiple": "shaken", "meaning": "振る", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_032", "type": "verb", "base": "show", "past": "showed", "pastParticiple": "shown", "meaning": "見せる", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_033", "type": "verb", "base": "sing", "past": "sang", "pastParticiple": "sung", "meaning": "歌う", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_034", "type": "verb", "base": "speak", "past": "spoke", "pastParticiple": "spoken", "meaning": "話す", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_035", "type": "verb", "base": "steal", "past": "stole", "pastParticiple": "stolen", "meaning": "盗む", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_036", "type": "verb", "base": "swim", "past": "swam", "pastParticiple": "swum", "meaning": "泳ぐ", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_037", "type": "verb", "base": "take", "past": "took", "pastParticiple": "taken", "meaning": "持っていく", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_038", "type": "verb", "base": "throw", "past": "threw", "pastParticiple": "thrown", "meaning": "投げる", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_039", "type": "verb", "base": "wake", "past": "woke", "pastParticiple": "woken", "meaning": "目が覚める", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_040", "type": "verb", "base": "wear", "past": "wore", "pastParticiple": "worn", "meaning": "着る", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_041", "type": "verb", "base": "write", "past": "wrote", "pastParticiple": "written", "meaning": "書く", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_042", "type": "verb", "base": "become", "past": "became", "pastParticiple": "become", "meaning": "〜になる", "category": "irregular_verbs", "difficulty": "medium"}
+]

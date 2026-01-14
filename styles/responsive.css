@@ -1,0 +1,130 @@
+/* ===== Responsive Styles ===== */
+
+/* タブレット */
+@media (max-width: 768px) {
+  .app-container {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    z-index: 1000;
+    transform: translateX(-100%);
+  }
+
+  .sidebar.open {
+    transform: translateX(0);
+  }
+
+  .sidebar-toggle {
+    display: block;
+  }
+
+  /* オーバーレイ */
+  .sidebar.open::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 250px;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
+
+  .main-content {
+    padding: 20px;
+  }
+
+  .app-header {
+    padding: 20px;
+  }
+
+  .app-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .quiz-header {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  .score-info {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+
+/* モバイル */
+@media (max-width: 480px) {
+  .main-content {
+    padding: 15px;
+  }
+
+  .quiz-card {
+    padding: 20px;
+  }
+
+  .verb-question .base-form {
+    font-size: 2rem;
+  }
+
+  .choice-question .prompt,
+  .reorder-question .prompt {
+    font-size: 1.1rem;
+    padding: 15px;
+  }
+
+  .sentence-template {
+    font-size: 1.1rem;
+  }
+
+  .inline-input {
+    font-size: 1rem;
+    padding: 4px 8px;
+  }
+
+  .quiz-actions {
+    flex-direction: column;
+  }
+
+  .quiz-actions .btn {
+    width: 100%;
+  }
+
+  .completion-screen h2 {
+    font-size: 1.8rem;
+  }
+
+  .completion-stats .accuracy {
+    font-size: 1.5rem;
+  }
+
+  /* テーブルをスクロール可能に */
+  .incorrect-table {
+    display: block;
+    overflow-x: auto;
+  }
+}
+
+/* 印刷用 */
+@media print {
+  .sidebar,
+  .quiz-actions,
+  .btn {
+    display: none;
+  }
+
+  .app-container {
+    grid-template-columns: 1fr;
+  }
+
+  .main-content {
+    padding: 20px;
+  }
+}

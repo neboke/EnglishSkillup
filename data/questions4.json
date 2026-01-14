@@ -1,0 +1,16 @@
+[
+  {"id": "verb_043", "type": "verb", "base": "bite", "past": "bit", "pastParticiple": "bitten", "meaning": "噛む", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_044", "type": "verb", "base": "build", "past": "built", "pastParticiple": "built", "meaning": "建てる", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_045", "type": "verb", "base": "buy", "past": "bought", "pastParticiple": "bought", "meaning": "買う", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_046", "type": "verb", "base": "catch", "past": "caught", "pastParticiple": "caught", "meaning": "捕まえる", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_047", "type": "verb", "base": "come", "past": "came", "pastParticiple": "come", "meaning": "来る", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_048", "type": "verb", "base": "cost", "past": "cost", "pastParticiple": "cost", "meaning": "費用がかかる", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_049", "type": "verb", "base": "cut", "past": "cut", "pastParticiple": "cut", "meaning": "切る", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_050", "type": "verb", "base": "feel", "past": "felt", "pastParticiple": "felt", "meaning": "感じる", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_051", "type": "verb", "base": "find", "past": "found", "pastParticiple": "found", "meaning": "見つける", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_052", "type": "verb", "base": "forget", "past": "forgot", "pastParticiple": "forgotten", "meaning": "忘れる", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_053", "type": "verb", "base": "get", "past": "got", "pastParticiple": "got", "meaning": "得る", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_054", "type": "verb", "base": "hear", "past": "heard", "pastParticiple": "heard", "meaning": "聞こえる", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_055", "type": "verb", "base": "hold", "past": "held", "pastParticiple": "held", "meaning": "持つ", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_056", "type": "verb", "base": "keep", "past": "kept", "pastParticiple": "kept", "meaning": "保つ", "category": "irregular_verbs", "difficulty": "medium"}
+]

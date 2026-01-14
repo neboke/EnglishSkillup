@@ -3,43 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>不規則動詞 練習アプリ</title>
-    <link rel="stylesheet" href="style.css">
+    <title>英語学習アプリ - 不規則動詞 & 英文法</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/quiz.css">
+    <link rel="stylesheet" href="styles/responsive.css">
 </head>
 <body>
-    <div class="container">
-        <h1>不規則動詞 練習アプリ</h1>
-        
-        <div class="stats">
-            <p>進行状況: <span id="progress">0/40</span></p>
-            <p>正解数: <span id="correct">0</span></p>
-            <p>不正解数: <span id="incorrect">0</span></p>
-        </div>
+    <div class="app-container">
+        <!-- サイドバー -->
+        <aside id="sidebar-container">
+            <!-- Sidebar.render()で生成 -->
+        </aside>
 
-        <div class="quiz-card">
-            <h2>原形</h2>
-            <div class="word-display" id="baseForm"></div>
-            <div class="meaning" id="meaning"></div>
+        <!-- メインコンテンツ -->
+        <main class="main-content">
+            <header class="app-header">
+                <h1>英語学習アプリ</h1>
+                <p class="subtitle">不規則動詞・選択問題・並び替え問題</p>
+            </header>
 
-            <div class="input-group">
-                <label for="pastForm">過去形:</label>
-                <input type="text" id="pastForm" autocomplete="off">
+            <div id="quiz-card-container">
+                <!-- QuizCard.render()で生成 -->
             </div>
-
-            <div class="input-group">
-                <label for="pastParticiple">過去分詞:</label>
-                <input type="text" id="pastParticiple" autocomplete="off">
-            </div>
-
-            <button id="checkBtn" class="btn">確認</button>
-            <button id="nextBtn" class="btn" style="display: none;">次へ</button>
-
-            <div id="result" class="result"></div>
-        </div>
-
-        <button id="resetBtn" class="btn btn-reset">最初から</button>
+        </main>
     </div>
 
-    <script src="script.js"></script>
+    <!-- スクリプト（モジュールとして読み込み） -->
+    <script type="module" src="src/app.js"></script>
 </body>
 </html>

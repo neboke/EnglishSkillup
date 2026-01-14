@@ -1,0 +1,16 @@
+[
+  {"id": "verb_015", "type": "verb", "base": "draw", "past": "drew", "pastParticiple": "drawn", "meaning": "描く", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_016", "type": "verb", "base": "drink", "past": "drank", "pastParticiple": "drunk", "meaning": "飲む", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_017", "type": "verb", "base": "drive", "past": "drove", "pastParticiple": "driven", "meaning": "運転する", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_018", "type": "verb", "base": "eat", "past": "ate", "pastParticiple": "eaten", "meaning": "食べる", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_019", "type": "verb", "base": "fall", "past": "fell", "pastParticiple": "fallen", "meaning": "落ちる", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_020", "type": "verb", "base": "fly", "past": "flew", "pastParticiple": "flown", "meaning": "飛ぶ", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_021", "type": "verb", "base": "give", "past": "gave", "pastParticiple": "given", "meaning": "与える", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_022", "type": "verb", "base": "go", "past": "went", "pastParticiple": "gone", "meaning": "行く", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_023", "type": "verb", "base": "grow", "past": "grew", "pastParticiple": "grown", "meaning": "成長する", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_024", "type": "verb", "base": "hide", "past": "hid", "pastParticiple": "hidden", "meaning": "隠す", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_025", "type": "verb", "base": "know", "past": "knew", "pastParticiple": "known", "meaning": "知っている", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_026", "type": "verb", "base": "mistake", "past": "mistook", "pastParticiple": "mistaken", "meaning": "間違える", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_027", "type": "verb", "base": "ride", "past": "rode", "pastParticiple": "ridden", "meaning": "乗る", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_028", "type": "verb", "base": "ring", "past": "rang", "pastParticiple": "rung", "meaning": "鳴る", "category": "irregular_verbs", "difficulty": "medium"}
+]

@@ -1,0 +1,15 @@
+[
+  {"id": "reorder_015", "type": "reorder", "prompt": "彼女は本を読んでいますね", "template": "She is __0__ __1__ book, isn't she?", "blanks": ["reading", "a"], "category": "tag_questions", "difficulty": "medium"},
+  {"id": "reorder_016", "type": "reorder", "prompt": "私たちは明日出発します", "template": "We will __0__ __1__.", "blanks": ["leave", "tomorrow"], "category": "grammar", "difficulty": "easy"},
+  {"id": "reorder_017", "type": "reorder", "prompt": "彼は車を運転することができます", "template": "He can __0__ __1__ car.", "blanks": ["drive", "a"], "category": "grammar", "difficulty": "easy"},
+  {"id": "reorder_018", "type": "reorder", "prompt": "彼女は美しい声を持っています", "template": "She __0__ __1__ beautiful voice.", "blanks": ["has", "a"], "category": "grammar", "difficulty": "easy"},
+  {"id": "reorder_019", "type": "reorder", "prompt": "私は明日彼に会う予定です", "template": "I am __0__ to __1__ him tomorrow.", "blanks": ["going", "meet"], "category": "grammar", "difficulty": "medium"},
+  {"id": "reorder_020", "type": "reorder", "prompt": "彼らは試験に合格しました", "template": "They __0__ the __1__.", "blanks": ["passed", "exam"], "category": "grammar", "difficulty": "medium"},
+  {"id": "reorder_021", "type": "reorder", "prompt": "あなたは早く起きますね", "template": "You get up __0__, don't you?", "blanks": ["early"], "category": "tag_questions", "difficulty": "medium"},
+  {"id": "reorder_022", "type": "reorder", "prompt": "彼女は歌を歌っていません", "template": "She isn't __0__ __1__ song.", "blanks": ["singing", "a"], "category": "grammar", "difficulty": "easy"},
+  {"id": "reorder_023", "type": "reorder", "prompt": "私たちは図書館で勉強しました", "template": "We __0__ in the __1__.", "blanks": ["studied", "library"], "category": "grammar", "difficulty": "easy"},
+  {"id": "reorder_024", "type": "reorder", "prompt": "彼は泳ぐことが好きです", "template": "He __0__ __1__.", "blanks": ["likes", "swimming"], "category": "grammar", "difficulty": "easy"},
+  {"id": "reorder_025", "type": "reorder", "prompt": "彼女は新しいドレスを買いました", "template": "She __0__ __1__ new dress.", "blanks": ["bought", "a"], "category": "grammar", "difficulty": "medium"},
+  {"id": "reorder_026", "type": "reorder", "prompt": "私は音楽を聞いています", "template": "I am __0__ to __1__.", "blanks": ["listening", "music"], "category": "grammar", "difficulty": "easy"},
+  {"id": "reorder_027", "type": "reorder", "prompt": "彼らはパーティーを楽しみました", "template": "They __0__ the __1__.", "blanks": ["enjoyed", "party"], "category": "grammar", "difficulty": "easy"}
+]

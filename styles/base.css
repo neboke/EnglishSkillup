@@ -1,0 +1,136 @@
+/* ===== Base Styles ===== */
+/* リセットと共通スタイル */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ボタン共通スタイル */
+.btn {
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn-primary {
+  background: #667eea;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #5568d3;
+}
+
+.btn-success {
+  background: #28a745;
+  color: white;
+}
+
+.btn-success:hover {
+  background: #218838;
+}
+
+.btn-danger {
+  background: #dc3545;
+  color: white;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.btn-danger:hover {
+  background: #c82333;
+}
+
+/* 入力フィールド共通スタイル */
+input[type="text"] {
+  padding: 10px 12px;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+input[type="text"].correct {
+  border-color: #28a745;
+  background: #d4edda;
+}
+
+input[type="text"].incorrect {
+  border-color: #dc3545;
+  background: #f8d7da;
+}
+
+/* ラジオボタン・チェックボックススタイル */
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+label {
+  cursor: pointer;
+  user-select: none;
+}
+
+/* カード共通スタイル */
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* ヘッダースタイル */
+h1, h2, h3, h4 {
+  margin-bottom: 16px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #555;
+}
+
+h3 {
+  font-size: 1.25rem;
+  color: #666;
+}
+
+h4 {
+  font-size: 1rem;
+  color: #777;
+}

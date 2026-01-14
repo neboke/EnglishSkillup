@@ -1,0 +1,16 @@
+[
+  {"id": "verb_001", "type": "verb", "base": "stand", "past": "stood", "pastParticiple": "stood", "meaning": "立っている", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_002", "type": "verb", "base": "strike", "past": "struck", "pastParticiple": "struck", "meaning": "打つ", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_003", "type": "verb", "base": "swing", "past": "swung", "pastParticiple": "swung", "meaning": "振る", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_004", "type": "verb", "base": "teach", "past": "taught", "pastParticiple": "taught", "meaning": "教える", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_005", "type": "verb", "base": "tell", "past": "told", "pastParticiple": "told", "meaning": "話す、教える", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_006", "type": "verb", "base": "think", "past": "thought", "pastParticiple": "thought", "meaning": "思う、考える", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_007", "type": "verb", "base": "understand", "past": "understood", "pastParticiple": "understood", "meaning": "理解する", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_008", "type": "verb", "base": "win", "past": "won", "pastParticiple": "won", "meaning": "勝つ", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_009", "type": "verb", "base": "be", "past": "was/were", "pastParticiple": "been", "meaning": "〜である", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_010", "type": "verb", "base": "begin", "past": "began", "pastParticiple": "begun", "meaning": "始める", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_011", "type": "verb", "base": "blow", "past": "blew", "pastParticiple": "blown", "meaning": "吹く", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_012", "type": "verb", "base": "break", "past": "broke", "pastParticiple": "broken", "meaning": "壊す", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_013", "type": "verb", "base": "choose", "past": "chose", "pastParticiple": "chosen", "meaning": "選ぶ", "category": "irregular_verbs", "difficulty": "medium"},
+  {"id": "verb_014", "type": "verb", "base": "do", "past": "did", "pastParticiple": "done", "meaning": "する", "category": "irregular_verbs", "difficulty": "medium"}
+]
