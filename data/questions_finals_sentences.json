@@ -1,885 +1,780 @@
 [
   {
-    "id": "choice_finals_001",
-    "type": "choice",
+    "id": "reorder_finals_001",
+    "type": "reorder",
     "prompt": "私はいそがしかったです。",
-    "choices": [
-      "I was busy yesterday.",
-      "We call the cat Hanako.",
-      "He had no time to play."
+    "template": "I __0__ busy yesterday.",
+    "blanks": [
+      "was"
     ],
-    "answer": "I was busy yesterday.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_002",
-    "type": "choice",
+    "id": "reorder_finals_002",
+    "type": "reorder",
     "prompt": "彼らは先週、ここにいませんでした。",
-    "choices": [
-      "They were not [weren't] here last week.",
-      "What a beautiful flower this is!",
-      "Which is larger, Japan or England?"
+    "template": "They __0__ [weren't] here last week.",
+    "blanks": [
+      "were not"
     ],
-    "answer": "They were not [weren't] here last week.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_003",
-    "type": "choice",
+    "id": "reorder_finals_003",
+    "type": "reorder",
     "prompt": "あなたは昨夜、家にいましたか。はい、いました。/いいえ、いませんでした。",
-    "choices": [
-      "Were you at home last night? Yes, I was. / No, I was not [wasn't].",
-      "She likes to skate.",
-      "We have to go there."
+    "template": "__0__ you at home last night? Yes, I __1__. / No, I __2__ [wasn't].",
+    "blanks": [
+      "Were",
+      "was",
+      "was not"
     ],
-    "answer": "Were you at home last night? Yes, I was. / No, I was not [wasn't].",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_004",
-    "type": "choice",
+    "id": "reorder_finals_004",
+    "type": "reorder",
     "prompt": "私はきのう、英語を勉強しました。",
-    "choices": [
-      "He knows how to get to the station.",
-      "I studied English yesterday.",
-      "How do you come to school?"
+    "template": "I __0__ English yesterday.",
+    "blanks": [
+      "studied"
     ],
-    "answer": "I studied English yesterday.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_005",
-    "type": "choice",
+    "id": "reorder_finals_005",
+    "type": "reorder",
     "prompt": "私はきのう、彼に会いました。",
-    "choices": [
-      "Speaking English is not easy.",
-      "I saw him yesterday.",
-      "Which is larger, Japan or England?"
+    "template": "I __0__ him yesterday.",
+    "blanks": [
+      "saw"
     ],
-    "answer": "I saw him yesterday.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_006",
-    "type": "choice",
+    "id": "reorder_finals_006",
+    "type": "reorder",
     "prompt": "彼はサッカーをしませんでした。",
-    "choices": [
-      "There is a book on the desk.",
-      "He did not[didn't] play soccer.",
-      "Which do you like better, dogs or cats?"
+    "template": "He __0__[didn't] play soccer.",
+    "blanks": [
+      "did not"
     ],
-    "answer": "He did not[didn't] play soccer.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_007",
-    "type": "choice",
+    "id": "reorder_finals_007",
+    "type": "reorder",
     "prompt": "私はそのとき、テニスをしていました。",
-    "choices": [
-      "I was playing tennis then.",
-      "Which is larger, Japan or England?",
-      "My mother gave me this book."
+    "template": "I __0__ tennis then.",
+    "blanks": [
+      "was playing"
     ],
-    "answer": "I was playing tennis then.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_008",
-    "type": "choice",
+    "id": "reorder_finals_008",
+    "type": "reorder",
     "prompt": "私たちは走っていませんでした。",
-    "choices": [
-      "Was he studying English? Yes, he was. / No, he wasn't.",
-      "We were not[weren't] running.",
-      "My sister and I went to Kyoto."
+    "template": "We __0__[weren't] __1__.",
+    "blanks": [
+      "were not",
+      "running"
     ],
-    "answer": "We were not[weren't] running.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_009",
-    "type": "choice",
+    "id": "reorder_finals_009",
+    "type": "reorder",
     "prompt": "彼は英語を勉強していましたか。はい、していました。/いいえ、していませんでした。",
-    "choices": [
-      "It is difficult for me to play the piano.",
-      "Are there any apples in the box? Yes, there are. / No, there aren't.",
-      "Was he studying English? Yes, he was. / No, he wasn't."
+    "template": "__0__ he __1__ English? Yes, he __2__. / No, he __3__.",
+    "blanks": [
+      "Was",
+      "studying",
+      "was",
+      "wasn't"
     ],
-    "answer": "Was he studying English? Yes, he was. / No, he wasn't.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_010",
-    "type": "choice",
+    "id": "reorder_finals_010",
+    "type": "reorder",
     "prompt": "私は彼に手紙を書くつもりです。",
-    "choices": [
-      "I will write to him.",
-      "You may come here.",
-      "To study English is important."
+    "template": "I __0__ to him.",
+    "blanks": [
+      "will write"
     ],
-    "answer": "I will write to him.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_011",
-    "type": "choice",
+    "id": "reorder_finals_011",
+    "type": "reorder",
     "prompt": "今日の午後は暇ですか。はい、暇です。/いいえ、暇ではありません。",
-    "choices": [
-      "Will you be free this afternoon? Yes, I will. / No, I will not [won't].",
-      "Could you help me?",
-      "Will you open the door?"
+    "template": "__0__ you be free this afternoon? Yes, I __1__. / No, I __2__ [won't].",
+    "blanks": [
+      "Will",
+      "will",
+      "will not"
     ],
-    "answer": "Will you be free this afternoon? Yes, I will. / No, I will not [won't].",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_012",
-    "type": "choice",
+    "id": "reorder_finals_012",
+    "type": "reorder",
     "prompt": "私はサッカーをするつもりです。",
-    "choices": [
-      "I am going to play soccer.",
-      "He had no time to play.",
-      "My mother gave this book to me."
+    "template": "I __0__ play soccer.",
+    "blanks": [
+      "am going to"
     ],
-    "answer": "I am going to play soccer.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_013",
-    "type": "choice",
+    "id": "reorder_finals_013",
+    "type": "reorder",
     "prompt": "あなたは京都を訪れるつもりですか。はい、訪れます。/いいえ、訪れません。",
-    "choices": [
-      "Are you going to visit Kyoto? Yes, I am. / No, I'm not.",
-      "He studied hard to become a doctor.",
-      "He is not able to drive a car."
+    "template": "__0__ you __1__ visit Kyoto? Yes, I __2__. / No, I__3__.",
+    "blanks": [
+      "Are",
+      "going to",
+      "am",
+      "'m not"
     ],
-    "answer": "Are you going to visit Kyoto? Yes, I am. / No, I'm not.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_014",
-    "type": "choice",
+    "id": "reorder_finals_014",
+    "type": "reorder",
     "prompt": "机の上に本があります。",
-    "choices": [
-      "There is a book on the desk.",
-      "He likes apples, doesn't he?",
-      "It is difficult for me to play the piano."
+    "template": "__0__ a book on the desk.",
+    "blanks": [
+      "There is"
     ],
-    "answer": "There is a book on the desk.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_015",
-    "type": "choice",
+    "id": "reorder_finals_015",
+    "type": "reorder",
     "prompt": "いすの上にねこはいませんでした。",
-    "choices": [
-      "Will you open the door?",
-      "There were not[weren't] any cats on the chair.",
-      "He had no time to play."
+    "template": "__0__[weren't] any cats on the chair.",
+    "blanks": [
+      "There were not"
     ],
-    "answer": "There were not[weren't] any cats on the chair.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_016",
-    "type": "choice",
+    "id": "reorder_finals_016",
+    "type": "reorder",
     "prompt": "箱の中にリンゴがありますか。はい、あります。/いいえ、ありません。",
-    "choices": [
-      "This book is more difficult than that one.",
-      "Are there any apples in the box? Yes, there are. / No, there aren't.",
-      "I have a lot of work to do today."
+    "template": "__0__ any apples in the box? Yes, __1__. / No, __2__.",
+    "blanks": [
+      "Are there",
+      "there are",
+      "there aren't"
     ],
-    "answer": "Are there any apples in the box? Yes, there are. / No, there aren't.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_017",
-    "type": "choice",
+    "id": "reorder_finals_017",
+    "type": "reorder",
     "prompt": "あなたはなぜカメラがほしいのですか。",
-    "choices": [
-      "Must I do the job?",
-      "He likes apples, doesn't he?",
-      "Why do you want a camera?"
+    "template": "__0__ do you __1__ a camera?",
+    "blanks": [
+      "Why",
+      "want"
     ],
-    "answer": "Why do you want a camera?",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_018",
-    "type": "choice",
+    "id": "reorder_finals_018",
+    "type": "reorder",
     "prompt": "あなたはどうやって通学していますか。",
-    "choices": [
-      "My hope is to be a scientist.",
-      "We have to go there.",
-      "How do you come to school?"
+    "template": "__0__ do you __1__ to school?",
+    "blanks": [
+      "How",
+      "come"
     ],
-    "answer": "How do you come to school?",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_019",
-    "type": "choice",
+    "id": "reorder_finals_019",
+    "type": "reorder",
     "prompt": "私は英語が話せます。",
-    "choices": [
-      "I can speak English.",
-      "Will you be free this afternoon? Yes, I will. / No, I will not [won't].",
-      "She walked slowly."
+    "template": "I __0__ English.",
+    "blanks": [
+      "can speak"
     ],
-    "answer": "I can speak English.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_020",
-    "type": "choice",
+    "id": "reorder_finals_020",
+    "type": "reorder",
     "prompt": "彼は昨夜、よく眠れませんでした。",
-    "choices": [
-      "She may be busy.",
-      "He could not sleep well last night.",
-      "He did not[didn't] play soccer."
+    "template": "He __0__ well last night.",
+    "blanks": [
+      "could not sleep"
     ],
-    "answer": "He could not sleep well last night.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_021",
-    "type": "choice",
+    "id": "reorder_finals_021",
+    "type": "reorder",
     "prompt": "ジェーンはピアノをひくことができます。",
-    "choices": [
-      "He looks happy.",
-      "Jane is able to play the piano.",
-      "Which do you like better, dogs or cats?"
+    "template": "Jane __0__ play the piano.",
+    "blanks": [
+      "is able to"
     ],
-    "answer": "Jane is able to play the piano.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_022",
-    "type": "choice",
+    "id": "reorder_finals_022",
+    "type": "reorder",
     "prompt": "彼は車を運転することができません。",
-    "choices": [
-      "This book is more difficult than that one.",
-      "He must be sick.",
-      "He is not able to drive a car."
+    "template": "He __0__ drive a car.",
+    "blanks": [
+      "is not able to"
     ],
-    "answer": "He is not able to drive a car.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_023",
-    "type": "choice",
+    "id": "reorder_finals_023",
+    "type": "reorder",
     "prompt": "私は皿を洗わなければなりません。",
-    "choices": [
-      "I like playing the violin.",
-      "There were not[weren't] any cats on the chair.",
-      "I must wash the dishes."
+    "template": "I __0__ the dishes.",
+    "blanks": [
+      "must wash"
     ],
-    "answer": "I must wash the dishes.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_024",
-    "type": "choice",
+    "id": "reorder_finals_024",
+    "type": "reorder",
     "prompt": "図書館で寝てはいけません。",
-    "choices": [
-      "He knows how to get to the station.",
-      "There is a book on the desk.",
-      "You must not sleep in the library."
+    "template": "You __0__ in the library.",
+    "blanks": [
+      "must not sleep"
     ],
-    "answer": "You must not sleep in the library.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_025",
-    "type": "choice",
+    "id": "reorder_finals_025",
+    "type": "reorder",
     "prompt": "私はその仕事をしなければなりませんか。",
-    "choices": [
-      "Must I do the job?",
-      "How do you come to school?",
-      "To study English is important."
+    "template": "__0__ I __1__ the job?",
+    "blanks": [
+      "Must",
+      "do"
     ],
-    "answer": "Must I do the job?",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_026",
-    "type": "choice",
+    "id": "reorder_finals_026",
+    "type": "reorder",
     "prompt": "私たちはそこへ行かなければなりません。",
-    "choices": [
-      "We have to go there.",
-      "The boy had a ball.",
-      "It is difficult for me to play the piano."
+    "template": "We __0__ there.",
+    "blanks": [
+      "have to go"
     ],
-    "answer": "We have to go there.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_027",
-    "type": "choice",
+    "id": "reorder_finals_027",
+    "type": "reorder",
     "prompt": "あなたはここに来てもいいですよ。",
-    "choices": [
-      "You may not eat this cake.",
-      "You may come here.",
-      "My mother gave this book to me."
+    "template": "You __0__ here.",
+    "blanks": [
+      "may come"
     ],
-    "answer": "You may come here.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_028",
-    "type": "choice",
+    "id": "reorder_finals_028",
+    "type": "reorder",
     "prompt": "あなたはこのケーキを食べてはいけません。",
-    "choices": [
-      "Which do you like better, dogs or cats?",
-      "She likes to skate.",
-      "You may not eat this cake."
+    "template": "You __0__ this cake.",
+    "blanks": [
+      "may not eat"
     ],
-    "answer": "You may not eat this cake.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_029",
-    "type": "choice",
+    "id": "reorder_finals_029",
+    "type": "reorder",
     "prompt": "このペンを使ってもいいですか。はい、いいですよ。/いいえ、いけません。",
-    "choices": [
-      "May I use this pen? Yes, you may. / No, you may not.",
-      "I studied English yesterday.",
-      "He looks happy."
+    "template": "__0__ I __1__ this pen? Yes, you __2__. / No, you __3__.",
+    "blanks": [
+      "May",
+      "use",
+      "may",
+      "may not"
     ],
-    "answer": "May I use this pen? Yes, you may. / No, you may not.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_030",
-    "type": "choice",
+    "id": "reorder_finals_030",
+    "type": "reorder",
     "prompt": "彼女は忙しいかもしれません。",
-    "choices": [
-      "They were not [weren't] here last week.",
-      "She may be busy.",
-      "I asked her to come to my house."
+    "template": "She __0__ busy.",
+    "blanks": [
+      "may be"
     ],
-    "answer": "She may be busy.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_031",
-    "type": "choice",
+    "id": "reorder_finals_031",
+    "type": "reorder",
     "prompt": "彼は病気にちがいありません。",
-    "choices": [
-      "My hobby is watching soccer games.",
-      "Was he studying English? Yes, he was. / No, he wasn't.",
-      "He must be sick."
+    "template": "He __0__ sick.",
+    "blanks": [
+      "must be"
     ],
-    "answer": "He must be sick.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_032",
-    "type": "choice",
+    "id": "reorder_finals_032",
+    "type": "reorder",
     "prompt": "ドアを開けてくれませんか。",
-    "choices": [
-      "They were not [weren't] here last week.",
-      "We have to go there.",
-      "Will you open the door?"
+    "template": "__0__ you __1__ the door?",
+    "blanks": [
+      "Will",
+      "open"
     ],
-    "answer": "Will you open the door?",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_033",
-    "type": "choice",
+    "id": "reorder_finals_033",
+    "type": "reorder",
     "prompt": "お手伝いしましょうか。",
-    "choices": [
-      "May I use this pen? Yes, you may. / No, you may not.",
-      "Are you going to visit Kyoto? Yes, I am. / No, I'm not.",
-      "Shall I help you?"
+    "template": "__0__ I __1__ you?",
+    "blanks": [
+      "Shall",
+      "help"
     ],
-    "answer": "Shall I help you?",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_034",
-    "type": "choice",
+    "id": "reorder_finals_034",
+    "type": "reorder",
     "prompt": "クッキーはいかがですか。",
-    "choices": [
-      "Would you like some cookies?",
-      "Help me, will you?",
-      "He could not sleep well last night."
+    "template": "__0__ you __1__ some cookies?",
+    "blanks": [
+      "Would",
+      "like"
     ],
-    "answer": "Would you like some cookies?",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_035",
-    "type": "choice",
+    "id": "reorder_finals_035",
+    "type": "reorder",
     "prompt": "私を手伝っていただけませんか。",
-    "choices": [
-      "Could you help me?",
-      "She likes to skate.",
-      "Why do you want a camera?"
+    "template": "__0__ you __1__ me?",
+    "blanks": [
+      "Could",
+      "help"
     ],
-    "answer": "Could you help me?",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_036",
-    "type": "choice",
+    "id": "reorder_finals_036",
+    "type": "reorder",
     "prompt": "あなたは学生ですね。",
-    "choices": [
-      "You must not sleep in the library.",
-      "She may be busy.",
-      "You are a student, aren't you?"
+    "template": "You are a student, __0__?",
+    "blanks": [
+      "aren't you"
     ],
-    "answer": "You are a student, aren't you?",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_037",
-    "type": "choice",
+    "id": "reorder_finals_037",
+    "type": "reorder",
     "prompt": "彼はリンゴが好きなんですね。",
-    "choices": [
-      "Jane can't swim, can she?",
-      "Are there any apples in the box? Yes, there are. / No, there aren't.",
-      "He likes apples, doesn't he?"
+    "template": "He likes apples, __0__?",
+    "blanks": [
+      "doesn't he"
     ],
-    "answer": "He likes apples, doesn't he?",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_038",
-    "type": "choice",
+    "id": "reorder_finals_038",
+    "type": "reorder",
     "prompt": "ジェーンは泳げないのですね。",
-    "choices": [
-      "The boy had a ball.",
-      "Jane can't swim, can she?",
-      "They were not [weren't] here last week."
+    "template": "Jane can't swim, __0__?",
+    "blanks": [
+      "can she"
     ],
-    "answer": "Jane can't swim, can she?",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_039",
-    "type": "choice",
+    "id": "reorder_finals_039",
+    "type": "reorder",
     "prompt": "手伝ってくれませんか。",
-    "choices": [
-      "Were you at home last night? Yes, I was. / No, I was not [wasn't].",
-      "He looks happy.",
-      "Help me, will you?"
+    "template": "Help me, __0__?",
+    "blanks": [
+      "will you"
     ],
-    "answer": "Help me, will you?",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_040",
-    "type": "choice",
+    "id": "reorder_finals_040",
+    "type": "reorder",
     "prompt": "パーティーをしましょうね。",
-    "choices": [
-      "Which is larger, Japan or England?",
-      "Let's have a party, shall we?",
-      "I like playing the violin."
+    "template": "Let's have a party, __0__?",
+    "blanks": [
+      "shall we"
     ],
-    "answer": "Let's have a party, shall we?",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_041",
-    "type": "choice",
+    "id": "reorder_finals_041",
+    "type": "reorder",
     "prompt": "これはなんと美しい花でしょう。",
-    "choices": [
-      "What a beautiful flower this is!",
-      "I will write to him.",
-      "You may come here."
+    "template": "__0__ a beautiful __1__ this is!",
+    "blanks": [
+      "What",
+      "flower"
     ],
-    "answer": "What a beautiful flower this is!",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_042",
-    "type": "choice",
+    "id": "reorder_finals_042",
+    "type": "reorder",
     "prompt": "私はバイオリンをひくことが好きです。",
-    "choices": [
-      "We have to go there.",
-      "I like playing the violin.",
-      "I was playing tennis then."
+    "template": "I like __0__ the violin.",
+    "blanks": [
+      "playing"
     ],
-    "answer": "I like playing the violin.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_043",
-    "type": "choice",
+    "id": "reorder_finals_043",
+    "type": "reorder",
     "prompt": "英語を話すことは簡単ではありません。",
-    "choices": [
-      "Shall I help you?",
-      "Speaking English is not easy.",
-      "I must wash the dishes."
+    "template": "__0__ English is not easy.",
+    "blanks": [
+      "Speaking"
     ],
-    "answer": "Speaking English is not easy.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_044",
-    "type": "choice",
+    "id": "reorder_finals_044",
+    "type": "reorder",
     "prompt": "私の趣味はサッカーの試合を見ることです。",
-    "choices": [
-      "My hobby is watching soccer games.",
-      "I was playing tennis then.",
-      "When I visited him, he was out."
+    "template": "My hobby is __0__ soccer games.",
+    "blanks": [
+      "watching"
     ],
-    "answer": "My hobby is watching soccer games.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_045",
-    "type": "choice",
+    "id": "reorder_finals_045",
+    "type": "reorder",
     "prompt": "彼女はスケートをすることが好きです。",
-    "choices": [
-      "It is difficult for me to play the piano.",
-      "The boy had a ball.",
-      "She likes to skate."
+    "template": "She __0__.",
+    "blanks": [
+      "likes to skate"
     ],
-    "answer": "She likes to skate.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_046",
-    "type": "choice",
+    "id": "reorder_finals_046",
+    "type": "reorder",
     "prompt": "英語を勉強することは大切です。",
-    "choices": [
-      "Could you help me?",
-      "He did not[didn't] play soccer.",
-      "To study English is important."
+    "template": "__0__ English is important.",
+    "blanks": [
+      "To study"
     ],
-    "answer": "To study English is important.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_047",
-    "type": "choice",
+    "id": "reorder_finals_047",
+    "type": "reorder",
     "prompt": "私の望みは科学者になることです。",
-    "choices": [
-      "My hope is to be a scientist.",
-      "The boy had a ball.",
-      "I have a lot of work to do today."
+    "template": "My hope __0__ a scientist.",
+    "blanks": [
+      "is to be"
     ],
-    "answer": "My hope is to be a scientist.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_048",
-    "type": "choice",
+    "id": "reorder_finals_048",
+    "type": "reorder",
     "prompt": "彼は医者になるために一生けん命勉強しました。",
-    "choices": [
-      "This book is more difficult than that one.",
-      "He studied hard to become a doctor.",
-      "I was busy yesterday."
+    "template": "He studied hard __0__ a doctor.",
+    "blanks": [
+      "to become"
     ],
-    "answer": "He studied hard to become a doctor.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_049",
-    "type": "choice",
+    "id": "reorder_finals_049",
+    "type": "reorder",
     "prompt": "私はあなたにお会いできて嬉しいです。",
-    "choices": [
-      "We call the cat Hanako.",
-      "I am happy to see you.",
-      "He did not[didn't] play soccer."
+    "template": "I am __0__ you.",
+    "blanks": [
+      "happy to see"
     ],
-    "answer": "I am happy to see you.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_050",
-    "type": "choice",
+    "id": "reorder_finals_050",
+    "type": "reorder",
     "prompt": "私は今日、するべき仕事がたくさんあります。",
-    "choices": [
-      "I have a lot of work to do today.",
-      "Will you open the door?",
-      "May I use this pen? Yes, you may. / No, you may not."
+    "template": "I have a lot of work __0__ today.",
+    "blanks": [
+      "to do"
     ],
-    "answer": "I have a lot of work to do today.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_051",
-    "type": "choice",
+    "id": "reorder_finals_051",
+    "type": "reorder",
     "prompt": "彼には遊ぶ（ための）時間はありませんでした。",
-    "choices": [
-      "She likes to skate.",
-      "I can speak English.",
-      "He had no time to play."
+    "template": "He had no time __0__.",
+    "blanks": [
+      "to play"
     ],
-    "answer": "He had no time to play.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_052",
-    "type": "choice",
+    "id": "reorder_finals_052",
+    "type": "reorder",
     "prompt": "サッカーをすることは簡単です。",
-    "choices": [
-      "It is easy to play soccer.",
-      "What a beautiful flower this is!",
-      "Was he studying English? Yes, he was. / No, he wasn't."
+    "template": "__0__ easy __1__ soccer.",
+    "blanks": [
+      "It is",
+      "to play"
     ],
-    "answer": "It is easy to play soccer.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_053",
-    "type": "choice",
+    "id": "reorder_finals_053",
+    "type": "reorder",
     "prompt": "私がピアノをひくのは難しいです。",
-    "choices": [
-      "Are there any apples in the box? Yes, there are. / No, there aren't.",
-      "I am happy to see you.",
-      "It is difficult for me to play the piano."
+    "template": "__0__ difficult __1__ me __2__ the piano.",
+    "blanks": [
+      "It is",
+      "for",
+      "to play"
     ],
-    "answer": "It is difficult for me to play the piano.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_054",
-    "type": "choice",
+    "id": "reorder_finals_054",
+    "type": "reorder",
     "prompt": "彼は駅への行きかたを知っています。",
-    "choices": [
-      "Would you like some cookies?",
-      "I like playing the violin.",
-      "He knows how to get to the station."
+    "template": "He knows __0__ to the station.",
+    "blanks": [
+      "how to get"
     ],
-    "answer": "He knows how to get to the station.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_055",
-    "type": "choice",
+    "id": "reorder_finals_055",
+    "type": "reorder",
     "prompt": "私は彼女に私の家に来るように頼みました。",
-    "choices": [
-      "I asked her to come to my house.",
-      "Was he studying English? Yes, he was. / No, he wasn't.",
-      "Which is larger, Japan or England?"
+    "template": "I __0__ her __1__ to my house.",
+    "blanks": [
+      "asked",
+      "to come"
     ],
-    "answer": "I asked her to come to my house.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_056",
-    "type": "choice",
+    "id": "reorder_finals_056",
+    "type": "reorder",
     "prompt": "彼女はゆっくり歩きました。",
-    "choices": [
-      "I studied English yesterday.",
-      "She walked slowly.",
-      "I can speak English."
+    "template": "She __0__ slowly.",
+    "blanks": [
+      "walked"
     ],
-    "answer": "She walked slowly.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_057",
-    "type": "choice",
+    "id": "reorder_finals_057",
+    "type": "reorder",
     "prompt": "彼は幸せそうに見えます。",
-    "choices": [
-      "I can speak English.",
-      "He looks happy.",
-      "I was busy yesterday."
+    "template": "He __0__ happy.",
+    "blanks": [
+      "looks"
     ],
-    "answer": "He looks happy.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_058",
-    "type": "choice",
+    "id": "reorder_finals_058",
+    "type": "reorder",
     "prompt": "その少年はボールを持っていました。",
-    "choices": [
-      "He did not[didn't] play soccer.",
-      "The boy had a ball.",
-      "Help me, will you?"
+    "template": "The boy __0__ a ball.",
+    "blanks": [
+      "had"
     ],
-    "answer": "The boy had a ball.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_059",
-    "type": "choice",
+    "id": "reorder_finals_059",
+    "type": "reorder",
     "prompt": "私の母が私にこの本をくれました。",
-    "choices": [
-      "Jane can't swim, can she?",
-      "My mother gave me this book.",
-      "What a beautiful flower this is!"
+    "template": "My mother __0__ me this book.",
+    "blanks": [
+      "gave"
     ],
-    "answer": "My mother gave me this book.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_060",
-    "type": "choice",
+    "id": "reorder_finals_060",
+    "type": "reorder",
     "prompt": "私の母がこの本を私にくれました。",
-    "choices": [
-      "He is not able to drive a car.",
-      "He must be sick.",
-      "My mother gave this book to me."
+    "template": "My mother __0__ this book __1__ me.",
+    "blanks": [
+      "gave",
+      "to"
     ],
-    "answer": "My mother gave this book to me.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_061",
-    "type": "choice",
+    "id": "reorder_finals_061",
+    "type": "reorder",
     "prompt": "私たちはそのねこを花子と呼びます。",
-    "choices": [
-      "Were you at home last night? Yes, I was. / No, I was not [wasn't].",
-      "I am going to play soccer.",
-      "We call the cat Hanako."
+    "template": "We __0__ the cat Hanako.",
+    "blanks": [
+      "call"
     ],
-    "answer": "We call the cat Hanako.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_062",
-    "type": "choice",
+    "id": "reorder_finals_062",
+    "type": "reorder",
     "prompt": "姉と私は京都に行きました。",
-    "choices": [
-      "Were you at home last night? Yes, I was. / No, I was not [wasn't].",
-      "When I visited him, he was out.",
-      "My sister and I went to Kyoto."
+    "template": "My sister __0__ I __1__ to Kyoto.",
+    "blanks": [
+      "and",
+      "went"
     ],
-    "answer": "My sister and I went to Kyoto.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_063",
-    "type": "choice",
+    "id": "reorder_finals_063",
+    "type": "reorder",
     "prompt": "私が彼を訪ねたとき、彼は出かけていました。",
-    "choices": [
-      "How do you come to school?",
-      "Help me, will you?",
-      "When I visited him, he was out."
+    "template": "__0__ I visited him, he was out.",
+    "blanks": [
+      "When"
     ],
-    "answer": "When I visited him, he was out.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_064",
-    "type": "choice",
+    "id": "reorder_finals_064",
+    "type": "reorder",
     "prompt": "私はメアリーはとても親切だと思います。",
-    "choices": [
-      "We call the cat Hanako.",
-      "I think that Mary is very kind.",
-      "He studied hard to become a doctor."
+    "template": "I __0__ Mary is very kind.",
+    "blanks": [
+      "think that"
     ],
-    "answer": "I think that Mary is very kind.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_065",
-    "type": "choice",
+    "id": "reorder_finals_065",
+    "type": "reorder",
     "prompt": "あなたは私の兄[弟]よりも年上です。",
-    "choices": [
-      "Will you be free this afternoon? Yes, I will. / No, I will not [won't].",
-      "I was playing tennis then.",
-      "You are older than my brother."
+    "template": "You are __0__ my brother.",
+    "blanks": [
+      "older than"
     ],
-    "answer": "You are older than my brother.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_066",
-    "type": "choice",
+    "id": "reorder_finals_066",
+    "type": "reorder",
     "prompt": "この本はあれよりも難しいです。",
-    "choices": [
-      "She likes to skate.",
-      "My sister and I went to Kyoto.",
-      "This book is more difficult than that one."
+    "template": "This book is __0__ that one.",
+    "blanks": [
+      "more difficult than"
     ],
-    "answer": "This book is more difficult than that one.",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_067",
-    "type": "choice",
+    "id": "reorder_finals_067",
+    "type": "reorder",
     "prompt": "日本とイギリスではどちらが広いですか。",
-    "choices": [
-      "He studied hard to become a doctor.",
-      "Which is larger, Japan or England?",
-      "Help me, will you?"
+    "template": "__0__, Japan or England?",
+    "blanks": [
+      "Which is larger"
     ],
-    "answer": "Which is larger, Japan or England?",
     "category": "finals_range",
     "difficulty": "medium"
   },
   {
-    "id": "choice_finals_068",
-    "type": "choice",
+    "id": "reorder_finals_068",
+    "type": "reorder",
     "prompt": "あなたはイヌとねこではどちらが好きですか。",
-    "choices": [
-      "Which do you like better, dogs or cats?",
-      "My hobby is watching soccer games.",
-      "There is a book on the desk."
+    "template": "__0__ do you like __1__, dogs or cats?",
+    "blanks": [
+      "Which",
+      "better"
     ],
-    "answer": "Which do you like better, dogs or cats?",
     "category": "finals_range",
     "difficulty": "medium"
   }
