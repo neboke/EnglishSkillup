@@ -1,0 +1,822 @@
+[
+  {
+    "id": "verb_finals_cut",
+    "type": "verb",
+    "base": "cut",
+    "past": "cut",
+    "pastParticiple": "cut",
+    "meaning": "切る",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_hit",
+    "type": "verb",
+    "base": "hit",
+    "past": "hit",
+    "pastParticiple": "hit",
+    "meaning": "打つ",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_hurt",
+    "type": "verb",
+    "base": "hurt",
+    "past": "hurt",
+    "pastParticiple": "hurt",
+    "meaning": "痛む",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_let",
+    "type": "verb",
+    "base": "let",
+    "past": "let",
+    "pastParticiple": "let",
+    "meaning": "〜しよう（let's）",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_put",
+    "type": "verb",
+    "base": "put",
+    "past": "put",
+    "pastParticiple": "put",
+    "meaning": "置く",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_read",
+    "type": "verb",
+    "base": "read",
+    "past": "read",
+    "pastParticiple": "read",
+    "meaning": "読む",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_set",
+    "type": "verb",
+    "base": "set",
+    "past": "set",
+    "pastParticiple": "set",
+    "meaning": "置く、すえる",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_shed",
+    "type": "verb",
+    "base": "shed",
+    "past": "shed",
+    "pastParticiple": "shed",
+    "meaning": "（涙などを）流す",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_shut",
+    "type": "verb",
+    "base": "shut",
+    "past": "shut",
+    "pastParticiple": "shut",
+    "meaning": "閉める",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_become",
+    "type": "verb",
+    "base": "become",
+    "past": "became",
+    "pastParticiple": "become",
+    "meaning": "〜になる",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_come",
+    "type": "verb",
+    "base": "come",
+    "past": "came",
+    "pastParticiple": "come",
+    "meaning": "来る",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_run",
+    "type": "verb",
+    "base": "run",
+    "past": "ran",
+    "pastParticiple": "run",
+    "meaning": "走る",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_bring",
+    "type": "verb",
+    "base": "bring",
+    "past": "brought",
+    "pastParticiple": "brought",
+    "meaning": "持ってくる",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_build",
+    "type": "verb",
+    "base": "build",
+    "past": "built",
+    "pastParticiple": "built",
+    "meaning": "建てる",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_buy",
+    "type": "verb",
+    "base": "buy",
+    "past": "bought",
+    "pastParticiple": "bought",
+    "meaning": "買う",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_catch",
+    "type": "verb",
+    "base": "catch",
+    "past": "caught",
+    "pastParticiple": "caught",
+    "meaning": "つかまえる",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_feel",
+    "type": "verb",
+    "base": "feel",
+    "past": "felt",
+    "pastParticiple": "felt",
+    "meaning": "感じる",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_fight",
+    "type": "verb",
+    "base": "fight",
+    "past": "fought",
+    "pastParticiple": "fought",
+    "meaning": "戦う",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_find",
+    "type": "verb",
+    "base": "find",
+    "past": "found",
+    "pastParticiple": "found",
+    "meaning": "見つける",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_forget",
+    "type": "verb",
+    "base": "forget",
+    "past": "forgot",
+    "pastParticiple": "forgot/forgotten",
+    "meaning": "忘れる",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_get",
+    "type": "verb",
+    "base": "get",
+    "past": "got",
+    "pastParticiple": "got/gotten",
+    "meaning": "得る",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_hang",
+    "type": "verb",
+    "base": "hang",
+    "past": "hung",
+    "pastParticiple": "hung",
+    "meaning": "かける",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_have",
+    "type": "verb",
+    "base": "have",
+    "past": "had",
+    "pastParticiple": "had",
+    "meaning": "持っている",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_hear",
+    "type": "verb",
+    "base": "hear",
+    "past": "heard",
+    "pastParticiple": "heard",
+    "meaning": "聞く",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_hold",
+    "type": "verb",
+    "base": "hold",
+    "past": "held",
+    "pastParticiple": "held",
+    "meaning": "催す、抱く",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_keep",
+    "type": "verb",
+    "base": "keep",
+    "past": "kept",
+    "pastParticiple": "kept",
+    "meaning": "もち続ける",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_lead",
+    "type": "verb",
+    "base": "lead",
+    "past": "led",
+    "pastParticiple": "led",
+    "meaning": "導く",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_learn",
+    "type": "verb",
+    "base": "learn",
+    "past": "learned/learnt",
+    "pastParticiple": "learned/learnt",
+    "meaning": "学ぶ",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_leave",
+    "type": "verb",
+    "base": "leave",
+    "past": "left",
+    "pastParticiple": "left",
+    "meaning": "出発する",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_lend",
+    "type": "verb",
+    "base": "lend",
+    "past": "lent",
+    "pastParticiple": "lent",
+    "meaning": "貸す",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_lose",
+    "type": "verb",
+    "base": "lose",
+    "past": "lost",
+    "pastParticiple": "lost",
+    "meaning": "失う",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_make",
+    "type": "verb",
+    "base": "make",
+    "past": "made",
+    "pastParticiple": "made",
+    "meaning": "作る",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_mean",
+    "type": "verb",
+    "base": "mean",
+    "past": "meant",
+    "pastParticiple": "meant",
+    "meaning": "意味する",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_meet",
+    "type": "verb",
+    "base": "meet",
+    "past": "met",
+    "pastParticiple": "met",
+    "meaning": "会う",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_say",
+    "type": "verb",
+    "base": "say",
+    "past": "said",
+    "pastParticiple": "said",
+    "meaning": "言う",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_sell",
+    "type": "verb",
+    "base": "sell",
+    "past": "sold",
+    "pastParticiple": "sold",
+    "meaning": "売る",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_send",
+    "type": "verb",
+    "base": "send",
+    "past": "sent",
+    "pastParticiple": "sent",
+    "meaning": "送る",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_sit",
+    "type": "verb",
+    "base": "sit",
+    "past": "sat",
+    "pastParticiple": "sat",
+    "meaning": "座る",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_sleep",
+    "type": "verb",
+    "base": "sleep",
+    "past": "slept",
+    "pastParticiple": "slept",
+    "meaning": "眠る",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_smell",
+    "type": "verb",
+    "base": "smell",
+    "past": "smelled/smelt",
+    "pastParticiple": "smelled/smelt",
+    "meaning": "においをかぐ",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_spend",
+    "type": "verb",
+    "base": "spend",
+    "past": "spent",
+    "pastParticiple": "spent",
+    "meaning": "過ごす",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_stand",
+    "type": "verb",
+    "base": "stand",
+    "past": "stood",
+    "pastParticiple": "stood",
+    "meaning": "立っている",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_strike",
+    "type": "verb",
+    "base": "strike",
+    "past": "struck",
+    "pastParticiple": "struck",
+    "meaning": "打つ",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_swing",
+    "type": "verb",
+    "base": "swing",
+    "past": "swung",
+    "pastParticiple": "swung",
+    "meaning": "振る",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_teach",
+    "type": "verb",
+    "base": "teach",
+    "past": "taught",
+    "pastParticiple": "taught",
+    "meaning": "教える",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_tell",
+    "type": "verb",
+    "base": "tell",
+    "past": "told",
+    "pastParticiple": "told",
+    "meaning": "話す、教える",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_think",
+    "type": "verb",
+    "base": "think",
+    "past": "thought",
+    "pastParticiple": "thought",
+    "meaning": "思う、考える",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_understand",
+    "type": "verb",
+    "base": "understand",
+    "past": "understood",
+    "pastParticiple": "understood",
+    "meaning": "理解する",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_win",
+    "type": "verb",
+    "base": "win",
+    "past": "won",
+    "pastParticiple": "won",
+    "meaning": "勝つ",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_be",
+    "type": "verb",
+    "base": "be",
+    "past": "was/were",
+    "pastParticiple": "been",
+    "meaning": "〜である、〜にいる",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_begin",
+    "type": "verb",
+    "base": "begin",
+    "past": "began",
+    "pastParticiple": "begun",
+    "meaning": "始める",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_blow",
+    "type": "verb",
+    "base": "blow",
+    "past": "blew",
+    "pastParticiple": "blown",
+    "meaning": "吹く",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_break",
+    "type": "verb",
+    "base": "break",
+    "past": "broke",
+    "pastParticiple": "broken",
+    "meaning": "折る",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_choose",
+    "type": "verb",
+    "base": "choose",
+    "past": "chose",
+    "pastParticiple": "chosen",
+    "meaning": "選ぶ",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_do",
+    "type": "verb",
+    "base": "do",
+    "past": "did",
+    "pastParticiple": "done",
+    "meaning": "する",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_draw",
+    "type": "verb",
+    "base": "draw",
+    "past": "drew",
+    "pastParticiple": "drawn",
+    "meaning": "描く",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_drink",
+    "type": "verb",
+    "base": "drink",
+    "past": "drank",
+    "pastParticiple": "drunk",
+    "meaning": "飲む",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_drive",
+    "type": "verb",
+    "base": "drive",
+    "past": "drove",
+    "pastParticiple": "driven",
+    "meaning": "運転する",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_eat",
+    "type": "verb",
+    "base": "eat",
+    "past": "ate",
+    "pastParticiple": "eaten",
+    "meaning": "食べる",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_fall",
+    "type": "verb",
+    "base": "fall",
+    "past": "fell",
+    "pastParticiple": "fallen",
+    "meaning": "落ちる",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_fly",
+    "type": "verb",
+    "base": "fly",
+    "past": "flew",
+    "pastParticiple": "flown",
+    "meaning": "飛ぶ",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_give",
+    "type": "verb",
+    "base": "give",
+    "past": "gave",
+    "pastParticiple": "given",
+    "meaning": "与える",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_go",
+    "type": "verb",
+    "base": "go",
+    "past": "went",
+    "pastParticiple": "gone",
+    "meaning": "行く",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_grow",
+    "type": "verb",
+    "base": "grow",
+    "past": "grew",
+    "pastParticiple": "grown",
+    "meaning": "成長する",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_hide",
+    "type": "verb",
+    "base": "hide",
+    "past": "hid",
+    "pastParticiple": "hidden",
+    "meaning": "かくす",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_know",
+    "type": "verb",
+    "base": "know",
+    "past": "knew",
+    "pastParticiple": "known",
+    "meaning": "知っている",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_mistake",
+    "type": "verb",
+    "base": "mistake",
+    "past": "mistook",
+    "pastParticiple": "mistaken",
+    "meaning": "まちがえる",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_ride",
+    "type": "verb",
+    "base": "ride",
+    "past": "rode",
+    "pastParticiple": "ridden",
+    "meaning": "乗る",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_ring",
+    "type": "verb",
+    "base": "ring",
+    "past": "rang",
+    "pastParticiple": "rung",
+    "meaning": "鳴る",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_rise",
+    "type": "verb",
+    "base": "rise",
+    "past": "rose",
+    "pastParticiple": "risen",
+    "meaning": "のぼる",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_see",
+    "type": "verb",
+    "base": "see",
+    "past": "saw",
+    "pastParticiple": "seen",
+    "meaning": "見る、会う",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_shake",
+    "type": "verb",
+    "base": "shake",
+    "past": "shook",
+    "pastParticiple": "shaken",
+    "meaning": "ふる",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_show",
+    "type": "verb",
+    "base": "show",
+    "past": "showed",
+    "pastParticiple": "shown",
+    "meaning": "見せる",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_sing",
+    "type": "verb",
+    "base": "sing",
+    "past": "sang",
+    "pastParticiple": "sung",
+    "meaning": "歌う",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_speak",
+    "type": "verb",
+    "base": "speak",
+    "past": "spoke",
+    "pastParticiple": "spoken",
+    "meaning": "話す",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_steal",
+    "type": "verb",
+    "base": "steal",
+    "past": "stole",
+    "pastParticiple": "stolen",
+    "meaning": "盗む",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_swim",
+    "type": "verb",
+    "base": "swim",
+    "past": "swam",
+    "pastParticiple": "swum",
+    "meaning": "泳ぐ",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_take",
+    "type": "verb",
+    "base": "take",
+    "past": "took",
+    "pastParticiple": "taken",
+    "meaning": "持っていく",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_throw",
+    "type": "verb",
+    "base": "throw",
+    "past": "threw",
+    "pastParticiple": "thrown",
+    "meaning": "投げる",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_wake",
+    "type": "verb",
+    "base": "wake",
+    "past": "woke/waked",
+    "pastParticiple": "woken/waked",
+    "meaning": "目が覚める",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_wear",
+    "type": "verb",
+    "base": "wear",
+    "past": "wore",
+    "pastParticiple": "worn",
+    "meaning": "着る",
+    "category": "finals_range",
+    "difficulty": "medium"
+  },
+  {
+    "id": "verb_finals_write",
+    "type": "verb",
+    "base": "write",
+    "past": "wrote",
+    "pastParticiple": "written",
+    "meaning": "書く",
+    "category": "finals_range",
+    "difficulty": "medium"
+  }
+]

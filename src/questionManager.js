@@ -14,7 +14,9 @@ class QuestionManager {
       'data/questions6.json',
       'data/questions7.json',
       'data/questions8.json',
-      'data/questions9.json'
+      'data/questions9.json',
+      'data/questions_finals_verbs.json',
+      'data/questions_finals_sentences.json'
     ];
   }
 
