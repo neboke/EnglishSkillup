@@ -6,15 +6,6 @@ class QuestionManager {
   constructor() {
     this.questions = [];
     this.defaultFiles = [
-      'data/questions1.json',
-      'data/questions2.json',
-      'data/questions3.json',
-      'data/questions4.json',
-      'data/questions5.json',
-      'data/questions6.json',
-      'data/questions7.json',
-      'data/questions8.json',
-      'data/questions9.json',
       'data/questions_finals_verbs.json',
       'data/questions_finals_sentences.json'
     ];
