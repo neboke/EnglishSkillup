@@ -121,6 +121,20 @@ class QuizApp {
     // Enterキーで確認/次へ
     document.addEventListener('keypress', (e) => {
       if (e.key === 'Enter') {
+        const activeElement = document.activeElement;
+        const pastInput = document.getElementById('past-input');
+        const pastParticipleInput = document.getElementById('past-participle-input');
+        
+        if (
+          this.currentQuestion?.type === 'verb' &&
+          activeElement === pastInput &&
+          pastParticipleInput
+        ) {
+          e.preventDefault();
+          pastParticipleInput.focus();
+          return;
+        }
+
         const checkBtn = document.getElementById('check-btn');
         const nextBtn = document.getElementById('next-btn');
         
@@ -286,7 +300,30 @@ class QuizApp {
       return selected ? selected.value : '';
     } else if (type === 'reorder') {
       const inputs = document.querySelectorAll('.inline-input');
-      return Array.from(inputs).map(input => input.value);
+      const grouped = new Map();
+
+      inputs.forEach((input) => {
+        const blankIndex = Number(input.dataset.blankIndex);
+        const wordIndex = Number(input.dataset.wordIndex || 0);
+        if (!grouped.has(blankIndex)) {
+          grouped.set(blankIndex, []);
+        }
+        grouped.get(blankIndex).push({ wordIndex, value: input.value });
+      });
+
+      const blanksCount = this.currentQuestion?.blanks?.length || 0;
+      if (blanksCount === 0) {
+        return Array.from(inputs).map(input => input.value);
+      }
+
+      const answers = [];
+      for (let i = 0; i < blanksCount; i++) {
+        const words = (grouped.get(i) || [])
+          .sort((a, b) => a.wordIndex - b.wordIndex)
+          .map(entry => entry.value);
+        answers.push(words.join(' '));
+      }
+      return answers;
     }
     
     return null;
@@ -313,6 +350,85 @@ class QuizApp {
     }
     
     QuizCard.showResult(result.isCorrect, message);
+
+    if (!result.isCorrect && this.currentQuestion.type === 'verb') {
+      this.playVerbPronunciation(this.currentQuestion);
+    } else if (!result.isCorrect && this.currentQuestion.type === 'reorder') {
+      this.playReorderPronunciation(this.currentQuestion);
+    }
+  }
+
+  /**
+   * 不規則動詞の発音を順に再生
+   * @param {Object} question - {base, past, pastParticiple}
+   */
+  playVerbPronunciation(question) {
+    if (!('speechSynthesis' in window)) {
+      return;
+    }
+
+    const synth = window.speechSynthesis;
+    const normalize = (text) =>
+      String(text || '').replace(/\//g, ' or ').replace(/[\[\]]/g, '');
+    const phrases = [question.base, question.past, question.pastParticiple]
+      .map(normalize)
+      .filter(Boolean);
+
+    if (phrases.length === 0) {
+      return;
+    }
+
+    synth.cancel();
+
+    let index = 0;
+    const speakNext = () => {
+      if (index >= phrases.length) {
+        return;
+      }
+
+      const utterance = new SpeechSynthesisUtterance(phrases[index]);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.95;
+      index += 1;
+      utterance.onend = speakNext;
+      utterance.onerror = speakNext;
+      synth.speak(utterance);
+    };
+
+    speakNext();
+  }
+
+  /**
+   * 並び替え問題の正解文を発音
+   * @param {Object} question - {template, blanks}
+   */
+  playReorderPronunciation(question) {
+    if (!('speechSynthesis' in window)) {
+      return;
+    }
+
+    const synth = window.speechSynthesis;
+    let sentence = String(question.template || '');
+
+    (question.blanks || []).forEach((blank, index) => {
+      const placeholder = `__${index}__`;
+      sentence = sentence.replace(placeholder, blank);
+    });
+
+    sentence = sentence
+      .replace(/\[[^\]]*\]/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+    if (!sentence) {
+      return;
+    }
+
+    synth.cancel();
+    const utterance = new SpeechSynthesisUtterance(sentence);
+    utterance.lang = 'en-US';
+    utterance.rate = 0.95;
+    synth.speak(utterance);
   }
 
   /**

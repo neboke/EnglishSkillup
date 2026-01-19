@@ -14,15 +14,20 @@ class ReorderRenderer {
     
     question.blanks.forEach((blank, index) => {
       const placeholder = `__${index}__`;
-      const inputHtml = `<input 
-        type="text" 
-        class="inline-input" 
-        data-blank-index="${index}"
-        autocomplete="off"
-        placeholder="?"
-        size="${Math.max(blank.length + 2, 5)}"
-      >`;
-      processedTemplate = processedTemplate.replace(placeholder, inputHtml);
+      const words = blank.trim() ? blank.trim().split(/\s+/) : [''];
+      const inputsHtml = words.map((word, wordIndex) => {
+        const inputSize = Math.max(word.length + 2, 5);
+        return `<input 
+          type="text" 
+          class="inline-input" 
+          data-blank-index="${index}"
+          data-word-index="${wordIndex}"
+          autocomplete="off"
+          placeholder="?"
+          size="${inputSize}"
+        >`;
+      }).join(' ');
+      processedTemplate = processedTemplate.replace(placeholder, inputsHtml);
     });
 
     return `
@@ -48,9 +53,10 @@ class ReorderRenderer {
    * @returns {Object} {isCorrect: boolean, correctAnswers: Array, userCorrect: Array}
    */
   static validate(question, userAnswers) {
+    const normalize = (value) => value.trim().replace(/\s+/g, ' ');
     const results = userAnswers.map((answer, index) => {
-      const trimmed = answer.trim();
-      const correct = question.blanks[index];
+      const trimmed = normalize(String(answer ?? ''));
+      const correct = normalize(String(question.blanks[index] ?? ''));
       // 大文字小文字を区別
       return trimmed === correct;
     });
