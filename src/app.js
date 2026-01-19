@@ -398,7 +398,11 @@ class QuizApp {
 
       const utterance = new SpeechSynthesisUtterance(phrases[index]);
       utterance.lang = 'en-US';
-      utterance.rate = 0.95;
+      utterance.rate = 0.85;
+      const voice = this.getEnglishVoice();
+      if (voice) {
+        utterance.voice = voice;
+      }
       index += 1;
       utterance.onend = speakNext;
       utterance.onerror = speakNext;
@@ -437,8 +441,34 @@ class QuizApp {
     synth.cancel();
     const utterance = new SpeechSynthesisUtterance(sentence);
     utterance.lang = 'en-US';
-    utterance.rate = 0.95;
+    utterance.rate = 0.85;
+    const voice = this.getEnglishVoice();
+    if (voice) {
+      utterance.voice = voice;
+    }
     synth.speak(utterance);
+  }
+
+  /**
+   * 英語の女性音声を優先して取得
+   * @returns {SpeechSynthesisVoice|null}
+   */
+  getEnglishVoice() {
+    const voices = window.speechSynthesis.getVoices();
+    if (!voices || voices.length === 0) {
+      return null;
+    }
+
+    const isEnglish = (voice) => /^en(-|_)?/i.test(voice.lang || '');
+    const femaleHint = /female|woman|samantha|victoria|zira|karen|susan/i;
+    const englishVoices = voices.filter(isEnglish);
+
+    const preferred = englishVoices.find((voice) => femaleHint.test(voice.name));
+    if (preferred) {
+      return preferred;
+    }
+
+    return englishVoices[0] || null;
   }
 
   /**
