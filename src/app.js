@@ -135,6 +135,16 @@ class QuizApp {
           return;
         }
 
+        if (this.currentQuestion?.type === 'reorder' && activeElement?.classList?.contains('inline-input')) {
+          const inputs = Array.from(document.querySelectorAll('.inline-input'));
+          const currentIndex = inputs.indexOf(activeElement);
+          if (currentIndex >= 0 && currentIndex < inputs.length - 1) {
+            e.preventDefault();
+            inputs[currentIndex + 1].focus();
+            return;
+          }
+        }
+
         const checkBtn = document.getElementById('check-btn');
         const nextBtn = document.getElementById('next-btn');
         
