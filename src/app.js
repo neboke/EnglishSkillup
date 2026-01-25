@@ -254,8 +254,9 @@ class QuizApp {
       this.nextQuestion();
     });
     
-    // Enterキーで確認/次へ
-    document.addEventListener('keypress', (e) => {
+    // Enterキーで確認/次へ（IME確定も考慮してkeydownを使用）
+    document.addEventListener('keydown', (e) => {
+      if (e.isComposing || e.key === 'Process') return; // 日本語入力中は無視
       if (e.key === 'Enter') {
         const activeElement = document.activeElement;
         const pastInput = document.getElementById('past-input');
@@ -392,7 +393,7 @@ class QuizApp {
     
     // 最初の入力フィールドにフォーカス
     setTimeout(() => {
-      const firstInput = document.querySelector('.answer-input, .inline-input');
+      const firstInput = document.querySelector('.answer-input, .inline-input, .typing-input');
       if (firstInput) {
         firstInput.focus();
       }
@@ -470,9 +471,11 @@ class QuizApp {
         answers.push(words.join(' '));
       }
       return answers;
+    } else if (type === 'typing') {
+      return document.getElementById('typing-input')?.value || '';
     }
     
-    return null;
+    return '';
   }
 
   /**
@@ -492,15 +495,23 @@ class QuizApp {
         message += `<div class="answer-detail">正解: ${result.correctAnswer}</div>`;
       } else if (this.currentQuestion.type === 'reorder') {
         message += `<div class="answer-detail">正解: ${result.correctAnswers.join(', ')}</div>`;
+      } else if (this.currentQuestion.type === 'typing') {
+        message += `<div class="answer-detail">正解: ${result.correctAnswer}</div>`;
       }
     }
     
+    if (this.currentQuestion.type === 'typing') {
+      TypingRenderer.showResult(result, this.currentQuestion);
+    }
+
     QuizCard.showResult(result.isCorrect, message);
 
     if (!result.isCorrect && this.currentQuestion.type === 'verb') {
       this.playVerbPronunciation(this.currentQuestion);
     } else if (!result.isCorrect && this.currentQuestion.type === 'reorder') {
       this.playReorderPronunciation(this.currentQuestion);
+    } else if (!result.isCorrect && this.currentQuestion.type === 'typing') {
+      this.playTypingPronunciation(this.currentQuestion);
     }
   }
 
@@ -578,6 +589,32 @@ class QuizApp {
     const utterance = new SpeechSynthesisUtterance(sentence);
     utterance.lang = 'en-US';
     utterance.rate = 0.85;
+    const voice = this.getEnglishVoice();
+    if (voice) {
+      utterance.voice = voice;
+    }
+    synth.speak(utterance);
+  }
+
+  /**
+   * タイピング問題の正解を発音
+   * @param {Object} question - {english}
+   */
+  playTypingPronunciation(question) {
+    if (!('speechSynthesis' in window)) {
+      return;
+    }
+
+    const answer = String(question.english || '').trim();
+    if (!answer) {
+      return;
+    }
+
+    const synth = window.speechSynthesis;
+    synth.cancel();
+    const utterance = new SpeechSynthesisUtterance(answer);
+    utterance.lang = 'en-US';
+    utterance.rate = 0.9;
     const voice = this.getEnglishVoice();
     if (voice) {
       utterance.voice = voice;

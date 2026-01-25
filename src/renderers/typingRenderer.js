@@ -62,6 +62,22 @@ class TypingRenderer {
   }
 
   /**
+   * バリデーション（QuizApp から呼ばれる）
+   * @param {Object} question - 問題オブジェクト
+   * @param {string} userAnswer - 入力値
+   * @returns {Object} {isCorrect, userAnswer, correctAnswer}
+   */
+  static validate(question, userAnswer) {
+    const normalizedAnswer = String(userAnswer || '').trim().toLowerCase();
+    const correctAnswer = String(question.english || '').trim().toLowerCase();
+    return {
+      isCorrect: normalizedAnswer === correctAnswer,
+      userAnswer: normalizedAnswer,
+      correctAnswer
+    };
+  }
+
+  /**
    * 結果を表示
    * @param {Object} result - {isCorrect, userAnswer, correctAnswer}
    * @param {Object} question - 問題オブジェクト
