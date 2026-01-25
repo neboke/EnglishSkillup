@@ -1,0 +1,1434 @@
+[
+  {
+    "id": "term3_a_continue",
+    "type": "typing",
+    "japanese": "続ける",
+    "english": "continue",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_stop",
+    "type": "typing",
+    "japanese": "止める",
+    "english": "stop",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_avoid",
+    "type": "typing",
+    "japanese": "避ける",
+    "english": "avoid",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_allow",
+    "type": "typing",
+    "japanese": "許す",
+    "english": "allow",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_refuse",
+    "type": "typing",
+    "japanese": "断る",
+    "english": "refuse",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_agree",
+    "type": "typing",
+    "japanese": "同意する",
+    "english": "agree",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_disagree",
+    "type": "typing",
+    "japanese": "反対する",
+    "english": "disagree",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_believe",
+    "type": "typing",
+    "japanese": "信じる",
+    "english": "believe",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_seem",
+    "type": "typing",
+    "japanese": "～のようだ",
+    "english": "seem",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_appear",
+    "type": "typing",
+    "japanese": "現れる",
+    "english": "appear",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_happen",
+    "type": "typing",
+    "japanese": "起こる",
+    "english": "happen",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_expect",
+    "type": "typing",
+    "japanese": "期待する",
+    "english": "expect",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_realize",
+    "type": "typing",
+    "japanese": "気づく",
+    "english": "realize",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_explain",
+    "type": "typing",
+    "japanese": "説明する",
+    "english": "explain",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_describe",
+    "type": "typing",
+    "japanese": "描写する",
+    "english": "describe",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_introduce",
+    "type": "typing",
+    "japanese": "紹介する",
+    "english": "introduce",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_develop",
+    "type": "typing",
+    "japanese": "発達する",
+    "english": "develop",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_increase",
+    "type": "typing",
+    "japanese": "増える",
+    "english": "increase",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_reduce",
+    "type": "typing",
+    "japanese": "減らす",
+    "english": "reduce",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_improve",
+    "type": "typing",
+    "japanese": "改善する",
+    "english": "improve",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_consider",
+    "type": "typing",
+    "japanese": "考慮する",
+    "english": "consider",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_suggest",
+    "type": "typing",
+    "japanese": "提案する",
+    "english": "suggest",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_support",
+    "type": "typing",
+    "japanese": "支援する",
+    "english": "support",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_protect",
+    "type": "typing",
+    "japanese": "守る",
+    "english": "protect",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_provide",
+    "type": "typing",
+    "japanese": "提供する",
+    "english": "provide",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_share",
+    "type": "typing",
+    "japanese": "共有する",
+    "english": "share",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_compare",
+    "type": "typing",
+    "japanese": "比べる",
+    "english": "compare",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_decide",
+    "type": "typing",
+    "japanese": "決定する",
+    "english": "decide",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_include",
+    "type": "typing",
+    "japanese": "含む",
+    "english": "include",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_require",
+    "type": "typing",
+    "japanese": "必要とする",
+    "english": "require",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_accept",
+    "type": "typing",
+    "japanese": "受け入れる",
+    "english": "accept",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_fail",
+    "type": "typing",
+    "japanese": "失敗する",
+    "english": "fail",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_succeed",
+    "type": "typing",
+    "japanese": "成功する",
+    "english": "succeed",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_depend",
+    "type": "typing",
+    "japanese": "依存する",
+    "english": "depend",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_a_cause",
+    "type": "typing",
+    "japanese": "引き起こす",
+    "english": "cause",
+    "category": "A",
+    "categoryName": "動詞③"
+  },
+  {
+    "id": "term3_b_become",
+    "type": "typing",
+    "japanese": "～になる",
+    "english": "become",
+    "category": "B",
+    "categoryName": "不規則動詞③"
+  },
+  {
+    "id": "term3_b_begin",
+    "type": "typing",
+    "japanese": "始まる",
+    "english": "begin",
+    "category": "B",
+    "categoryName": "不規則動詞③"
+  },
+  {
+    "id": "term3_b_choose",
+    "type": "typing",
+    "japanese": "選ぶ",
+    "english": "choose",
+    "category": "B",
+    "categoryName": "不規則動詞③"
+  },
+  {
+    "id": "term3_b_drive",
+    "type": "typing",
+    "japanese": "運転する",
+    "english": "drive",
+    "category": "B",
+    "categoryName": "不規則動詞③"
+  },
+  {
+    "id": "term3_b_fall",
+    "type": "typing",
+    "japanese": "落ちる",
+    "english": "fall",
+    "category": "B",
+    "categoryName": "不規則動詞③"
+  },
+  {
+    "id": "term3_b_forget",
+    "type": "typing",
+    "japanese": "忘れる",
+    "english": "forget",
+    "category": "B",
+    "categoryName": "不規則動詞③"
+  },
+  {
+    "id": "term3_b_forgive",
+    "type": "typing",
+    "japanese": "許す",
+    "english": "forgive",
+    "category": "B",
+    "categoryName": "不規則動詞③"
+  },
+  {
+    "id": "term3_b_grow",
+    "type": "typing",
+    "japanese": "成長する",
+    "english": "grow",
+    "category": "B",
+    "categoryName": "不規則動詞③"
+  },
+  {
+    "id": "term3_b_hold",
+    "type": "typing",
+    "japanese": "持つ",
+    "english": "hold",
+    "category": "B",
+    "categoryName": "不規則動詞③"
+  },
+  {
+    "id": "term3_b_know",
+    "type": "typing",
+    "japanese": "知っている",
+    "english": "know",
+    "category": "B",
+    "categoryName": "不規則動詞③"
+  },
+  {
+    "id": "term3_b_pay",
+    "type": "typing",
+    "japanese": "支払う",
+    "english": "pay",
+    "category": "B",
+    "categoryName": "不規則動詞③"
+  },
+  {
+    "id": "term3_b_rise",
+    "type": "typing",
+    "japanese": "上がる",
+    "english": "rise",
+    "category": "B",
+    "categoryName": "不規則動詞③"
+  },
+  {
+    "id": "term3_b_sell",
+    "type": "typing",
+    "japanese": "売る",
+    "english": "sell",
+    "category": "B",
+    "categoryName": "不規則動詞③"
+  },
+  {
+    "id": "term3_b_teach",
+    "type": "typing",
+    "japanese": "教える",
+    "english": "teach",
+    "category": "B",
+    "categoryName": "不規則動詞③"
+  },
+  {
+    "id": "term3_b_think",
+    "type": "typing",
+    "japanese": "思う",
+    "english": "think",
+    "category": "B",
+    "categoryName": "不規則動詞③"
+  },
+  {
+    "id": "term3_c_reason",
+    "type": "typing",
+    "japanese": "理由",
+    "english": "reason",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_result",
+    "type": "typing",
+    "japanese": "結果",
+    "english": "result",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_fact",
+    "type": "typing",
+    "japanese": "事実",
+    "english": "fact",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_example",
+    "type": "typing",
+    "japanese": "例",
+    "english": "example",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_case",
+    "type": "typing",
+    "japanese": "事例",
+    "english": "case",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_difference",
+    "type": "typing",
+    "japanese": "違い",
+    "english": "difference",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_change",
+    "type": "typing",
+    "japanese": "変化",
+    "english": "change",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_experience",
+    "type": "typing",
+    "japanese": "経験",
+    "english": "experience",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_chance",
+    "type": "typing",
+    "japanese": "機会",
+    "english": "chance",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_choice",
+    "type": "typing",
+    "japanese": "選択",
+    "english": "choice",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_decision",
+    "type": "typing",
+    "japanese": "決定",
+    "english": "decision",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_purpose",
+    "type": "typing",
+    "japanese": "目的",
+    "english": "purpose",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_effect",
+    "type": "typing",
+    "japanese": "影響",
+    "english": "effect",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_cause",
+    "type": "typing",
+    "japanese": "原因",
+    "english": "cause",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_problem",
+    "type": "typing",
+    "japanese": "問題",
+    "english": "problem",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_solution",
+    "type": "typing",
+    "japanese": "解決策",
+    "english": "solution",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_situation",
+    "type": "typing",
+    "japanese": "状況",
+    "english": "situation",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_condition",
+    "type": "typing",
+    "japanese": "状態",
+    "english": "condition",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_idea",
+    "type": "typing",
+    "japanese": "考え",
+    "english": "idea",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_opinion",
+    "type": "typing",
+    "japanese": "意見",
+    "english": "opinion",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_information",
+    "type": "typing",
+    "japanese": "情報",
+    "english": "information",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_knowledge",
+    "type": "typing",
+    "japanese": "知識",
+    "english": "knowledge",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_skill",
+    "type": "typing",
+    "japanese": "技能",
+    "english": "skill",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_ability",
+    "type": "typing",
+    "japanese": "能力",
+    "english": "ability",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_rule",
+    "type": "typing",
+    "japanese": "規則",
+    "english": "rule",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_law",
+    "type": "typing",
+    "japanese": "法律",
+    "english": "law",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_culture",
+    "type": "typing",
+    "japanese": "文化",
+    "english": "culture",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_society",
+    "type": "typing",
+    "japanese": "社会",
+    "english": "society",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_history",
+    "type": "typing",
+    "japanese": "歴史",
+    "english": "history",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_future",
+    "type": "typing",
+    "japanese": "将来",
+    "english": "future",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_technology",
+    "type": "typing",
+    "japanese": "技術",
+    "english": "technology",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_environment",
+    "type": "typing",
+    "japanese": "環境",
+    "english": "environment",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_nature",
+    "type": "typing",
+    "japanese": "自然",
+    "english": "nature",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_energy",
+    "type": "typing",
+    "japanese": "エネルギー",
+    "english": "energy",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_health",
+    "type": "typing",
+    "japanese": "健康",
+    "english": "health",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_education",
+    "type": "typing",
+    "japanese": "教育",
+    "english": "education",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_language",
+    "type": "typing",
+    "japanese": "言語",
+    "english": "language",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_communication",
+    "type": "typing",
+    "japanese": "交流",
+    "english": "communication",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_community",
+    "type": "typing",
+    "japanese": "地域社会",
+    "english": "community",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_government",
+    "type": "typing",
+    "japanese": "政府",
+    "english": "government",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_population",
+    "type": "typing",
+    "japanese": "人口",
+    "english": "population",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_level",
+    "type": "typing",
+    "japanese": "水準",
+    "english": "level",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_role",
+    "type": "typing",
+    "japanese": "役割",
+    "english": "role",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_c_system",
+    "type": "typing",
+    "japanese": "仕組み",
+    "english": "system",
+    "category": "C",
+    "categoryName": "名詞③"
+  },
+  {
+    "id": "term3_d_able",
+    "type": "typing",
+    "japanese": "～できる",
+    "english": "able",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_unable",
+    "type": "typing",
+    "japanese": "～できない",
+    "english": "unable",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_possible",
+    "type": "typing",
+    "japanese": "可能な",
+    "english": "possible",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_likely",
+    "type": "typing",
+    "japanese": "ありそうな",
+    "english": "likely",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_necessary",
+    "type": "typing",
+    "japanese": "必要な",
+    "english": "necessary",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_important",
+    "type": "typing",
+    "japanese": "重要な",
+    "english": "important",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_serious",
+    "type": "typing",
+    "japanese": "深刻な",
+    "english": "serious",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_common",
+    "type": "typing",
+    "japanese": "一般的な",
+    "english": "common",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_usual",
+    "type": "typing",
+    "japanese": "いつもの",
+    "english": "usual",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_recent",
+    "type": "typing",
+    "japanese": "最近の",
+    "english": "recent",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_modern",
+    "type": "typing",
+    "japanese": "現代の",
+    "english": "modern",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_local",
+    "type": "typing",
+    "japanese": "地元の",
+    "english": "local",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_global",
+    "type": "typing",
+    "japanese": "世界的な",
+    "english": "global",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_public",
+    "type": "typing",
+    "japanese": "公共の",
+    "english": "public",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_private",
+    "type": "typing",
+    "japanese": "私的な",
+    "english": "private",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_natural",
+    "type": "typing",
+    "japanese": "自然な",
+    "english": "natural",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_human",
+    "type": "typing",
+    "japanese": "人間の",
+    "english": "human",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_social",
+    "type": "typing",
+    "japanese": "社会的な",
+    "english": "social",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_cultural",
+    "type": "typing",
+    "japanese": "文化的な",
+    "english": "cultural",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_political",
+    "type": "typing",
+    "japanese": "政治的な",
+    "english": "political",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_scientific",
+    "type": "typing",
+    "japanese": "科学的な",
+    "english": "scientific",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_economic",
+    "type": "typing",
+    "japanese": "経済的な",
+    "english": "economic",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_safe",
+    "type": "typing",
+    "japanese": "安全な",
+    "english": "safe",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_dangerous",
+    "type": "typing",
+    "japanese": "危険な",
+    "english": "dangerous",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_similar",
+    "type": "typing",
+    "japanese": "似た",
+    "english": "similar",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_different",
+    "type": "typing",
+    "japanese": "異なる",
+    "english": "different",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_correct",
+    "type": "typing",
+    "japanese": "正しい",
+    "english": "correct",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_wrong",
+    "type": "typing",
+    "japanese": "間違った",
+    "english": "wrong",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_fair",
+    "type": "typing",
+    "japanese": "公平な",
+    "english": "fair",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_unfair",
+    "type": "typing",
+    "japanese": "不公平な",
+    "english": "unfair",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_clear",
+    "type": "typing",
+    "japanese": "明確な",
+    "english": "clear",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_simple",
+    "type": "typing",
+    "japanese": "単純な",
+    "english": "simple",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_complex",
+    "type": "typing",
+    "japanese": "複雑な",
+    "english": "complex",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_active",
+    "type": "typing",
+    "japanese": "活動的な",
+    "english": "active",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_d_inactive",
+    "type": "typing",
+    "japanese": "活動していない",
+    "english": "inactive",
+    "category": "D",
+    "categoryName": "形容詞③"
+  },
+  {
+    "id": "term3_e_however",
+    "type": "typing",
+    "japanese": "しかしながら",
+    "english": "however",
+    "category": "E",
+    "categoryName": "副詞③"
+  },
+  {
+    "id": "term3_e_therefore",
+    "type": "typing",
+    "japanese": "それゆえ",
+    "english": "therefore",
+    "category": "E",
+    "categoryName": "副詞③"
+  },
+  {
+    "id": "term3_e_instead",
+    "type": "typing",
+    "japanese": "その代わりに",
+    "english": "instead",
+    "category": "E",
+    "categoryName": "副詞③"
+  },
+  {
+    "id": "term3_e_otherwise",
+    "type": "typing",
+    "japanese": "そうでなければ",
+    "english": "otherwise",
+    "category": "E",
+    "categoryName": "副詞③"
+  },
+  {
+    "id": "term3_e_actually",
+    "type": "typing",
+    "japanese": "実際は",
+    "english": "actually",
+    "category": "E",
+    "categoryName": "副詞③"
+  },
+  {
+    "id": "term3_e_generally",
+    "type": "typing",
+    "japanese": "一般的に",
+    "english": "generally",
+    "category": "E",
+    "categoryName": "副詞③"
+  },
+  {
+    "id": "term3_e_especially",
+    "type": "typing",
+    "japanese": "特に",
+    "english": "especially",
+    "category": "E",
+    "categoryName": "副詞③"
+  },
+  {
+    "id": "term3_e_probably",
+    "type": "typing",
+    "japanese": "おそらく",
+    "english": "probably",
+    "category": "E",
+    "categoryName": "副詞③"
+  },
+  {
+    "id": "term3_e_certainly",
+    "type": "typing",
+    "japanese": "確かに",
+    "english": "certainly",
+    "category": "E",
+    "categoryName": "副詞③"
+  },
+  {
+    "id": "term3_e_finally",
+    "type": "typing",
+    "japanese": "最後に",
+    "english": "finally",
+    "category": "E",
+    "categoryName": "副詞③"
+  },
+  {
+    "id": "term3_e_recently",
+    "type": "typing",
+    "japanese": "最近",
+    "english": "recently",
+    "category": "E",
+    "categoryName": "副詞③"
+  },
+  {
+    "id": "term3_e_immediately",
+    "type": "typing",
+    "japanese": "すぐに",
+    "english": "immediately",
+    "category": "E",
+    "categoryName": "副詞③"
+  },
+  {
+    "id": "term3_e_gradually",
+    "type": "typing",
+    "japanese": "徐々に",
+    "english": "gradually",
+    "category": "E",
+    "categoryName": "副詞③"
+  },
+  {
+    "id": "term3_e_suddenly",
+    "type": "typing",
+    "japanese": "突然",
+    "english": "suddenly",
+    "category": "E",
+    "categoryName": "副詞③"
+  },
+  {
+    "id": "term3_e_completely",
+    "type": "typing",
+    "japanese": "完全に",
+    "english": "completely",
+    "category": "E",
+    "categoryName": "副詞③"
+  },
+  {
+    "id": "term3_e_partly",
+    "type": "typing",
+    "japanese": "部分的に",
+    "english": "partly",
+    "category": "E",
+    "categoryName": "副詞③"
+  },
+  {
+    "id": "term3_e_directly",
+    "type": "typing",
+    "japanese": "直接",
+    "english": "directly",
+    "category": "E",
+    "categoryName": "副詞③"
+  },
+  {
+    "id": "term3_e_clearly",
+    "type": "typing",
+    "japanese": "明確に",
+    "english": "clearly",
+    "category": "E",
+    "categoryName": "副詞③"
+  },
+  {
+    "id": "term3_e_simply",
+    "type": "typing",
+    "japanese": "単に",
+    "english": "simply",
+    "category": "E",
+    "categoryName": "副詞③"
+  },
+  {
+    "id": "term3_e_seriously",
+    "type": "typing",
+    "japanese": "真剣に",
+    "english": "seriously",
+    "category": "E",
+    "categoryName": "副詞③"
+  },
+  {
+    "id": "term3_e_successfully",
+    "type": "typing",
+    "japanese": "成功して",
+    "english": "successfully",
+    "category": "E",
+    "categoryName": "副詞③"
+  },
+  {
+    "id": "term3_e_individually",
+    "type": "typing",
+    "japanese": "個別に",
+    "english": "individually",
+    "category": "E",
+    "categoryName": "副詞③"
+  },
+  {
+    "id": "term3_e_together",
+    "type": "typing",
+    "japanese": "一緒に",
+    "english": "together",
+    "category": "E",
+    "categoryName": "副詞③"
+  },
+  {
+    "id": "term3_e_alone",
+    "type": "typing",
+    "japanese": "一人で",
+    "english": "alone",
+    "category": "E",
+    "categoryName": "副詞③"
+  },
+  {
+    "id": "term3_e_abroad",
+    "type": "typing",
+    "japanese": "海外で",
+    "english": "abroad",
+    "category": "E",
+    "categoryName": "副詞③"
+  },
+  {
+    "id": "term3_f_according_to",
+    "type": "typing",
+    "japanese": "～によれば",
+    "english": "according to",
+    "category": "F",
+    "categoryName": "前置詞・句③"
+  },
+  {
+    "id": "term3_f_because_of",
+    "type": "typing",
+    "japanese": "～のために",
+    "english": "because of",
+    "category": "F",
+    "categoryName": "前置詞・句③"
+  },
+  {
+    "id": "term3_f_due_to",
+    "type": "typing",
+    "japanese": "～が原因で",
+    "english": "due to",
+    "category": "F",
+    "categoryName": "前置詞・句③"
+  },
+  {
+    "id": "term3_f_in_order_to",
+    "type": "typing",
+    "japanese": "～するために",
+    "english": "in order to",
+    "category": "F",
+    "categoryName": "前置詞・句③"
+  },
+  {
+    "id": "term3_f_instead_of",
+    "type": "typing",
+    "japanese": "～の代わりに",
+    "english": "instead of",
+    "category": "F",
+    "categoryName": "前置詞・句③"
+  },
+  {
+    "id": "term3_f_such_as",
+    "type": "typing",
+    "japanese": "～のような",
+    "english": "such as",
+    "category": "F",
+    "categoryName": "前置詞・句③"
+  },
+  {
+    "id": "term3_f_as_well_as",
+    "type": "typing",
+    "japanese": "～に加えて",
+    "english": "as well as",
+    "category": "F",
+    "categoryName": "前置詞・句③"
+  },
+  {
+    "id": "term3_f_in_addition_to",
+    "type": "typing",
+    "japanese": "～に加えて",
+    "english": "in addition to",
+    "category": "F",
+    "categoryName": "前置詞・句③"
+  },
+  {
+    "id": "term3_f_by_means_of",
+    "type": "typing",
+    "japanese": "～によって",
+    "english": "by means of",
+    "category": "F",
+    "categoryName": "前置詞・句③"
+  },
+  {
+    "id": "term3_f_in_spite_of",
+    "type": "typing",
+    "japanese": "～にもかかわらず",
+    "english": "in spite of",
+    "category": "F",
+    "categoryName": "前置詞・句③"
+  },
+  {
+    "id": "term3_f_regardless_of",
+    "type": "typing",
+    "japanese": "～に関係なく",
+    "english": "regardless of",
+    "category": "F",
+    "categoryName": "前置詞・句③"
+  },
+  {
+    "id": "term3_f_within",
+    "type": "typing",
+    "japanese": "～以内に",
+    "english": "within",
+    "category": "F",
+    "categoryName": "前置詞・句③"
+  },
+  {
+    "id": "term3_f_beyond",
+    "type": "typing",
+    "japanese": "～を超えて",
+    "english": "beyond",
+    "category": "F",
+    "categoryName": "前置詞・句③"
+  },
+  {
+    "id": "term3_f_throughout",
+    "type": "typing",
+    "japanese": "～の至る所で",
+    "english": "throughout",
+    "category": "F",
+    "categoryName": "前置詞・句③"
+  },
+  {
+    "id": "term3_f_toward",
+    "type": "typing",
+    "japanese": "～に向かって",
+    "english": "toward",
+    "category": "F",
+    "categoryName": "前置詞・句③"
+  },
+  {
+    "id": "term3_g_something",
+    "type": "typing",
+    "japanese": "何か",
+    "english": "something",
+    "category": "G",
+    "categoryName": "機能語・抽象代名詞"
+  },
+  {
+    "id": "term3_g_anything",
+    "type": "typing",
+    "japanese": "何でも",
+    "english": "anything",
+    "category": "G",
+    "categoryName": "機能語・抽象代名詞"
+  },
+  {
+    "id": "term3_g_nothing",
+    "type": "typing",
+    "japanese": "何も～ない",
+    "english": "nothing",
+    "category": "G",
+    "categoryName": "機能語・抽象代名詞"
+  },
+  {
+    "id": "term3_g_someone",
+    "type": "typing",
+    "japanese": "誰か",
+    "english": "someone",
+    "category": "G",
+    "categoryName": "機能語・抽象代名詞"
+  },
+  {
+    "id": "term3_g_everyone",
+    "type": "typing",
+    "japanese": "みんな",
+    "english": "everyone",
+    "category": "G",
+    "categoryName": "機能語・抽象代名詞"
+  },
+  {
+    "id": "term3_g_everything",
+    "type": "typing",
+    "japanese": "すべて",
+    "english": "everything",
+    "category": "G",
+    "categoryName": "機能語・抽象代名詞"
+  },
+  {
+    "id": "term3_g_none",
+    "type": "typing",
+    "japanese": "何も～ない",
+    "english": "none",
+    "category": "G",
+    "categoryName": "機能語・抽象代名詞"
+  },
+  {
+    "id": "term3_g_another",
+    "type": "typing",
+    "japanese": "別の",
+    "english": "another",
+    "category": "G",
+    "categoryName": "機能語・抽象代名詞"
+  },
+  {
+    "id": "term3_g_others",
+    "type": "typing",
+    "japanese": "他の人々",
+    "english": "others",
+    "category": "G",
+    "categoryName": "機能語・抽象代名詞"
+  },
+  {
+    "id": "term3_g_the_other",
+    "type": "typing",
+    "japanese": "もう一方",
+    "english": "the other",
+    "category": "G",
+    "categoryName": "機能語・抽象代名詞"
+  }
+]

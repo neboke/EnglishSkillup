@@ -15,6 +15,61 @@ class Sidebar {
         </div>
 
         <div class="sidebar-content">
+          <!-- 出題モード選択 -->
+          <div class="mode-section">
+            <h4>出題モード</h4>
+            <div class="mode-options">
+              <label class="mode-option">
+                <input type="radio" name="exam-mode" value="finals" checked>
+                <span>最終対策</span>
+              </label>
+              <label class="mode-option">
+                <input type="radio" name="exam-mode" value="term">
+                <span>200語習得</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- 最終対策モード -->
+          <div id="finals-mode" class="exam-mode-content">
+            <!-- 問題ファイル選択 -->
+            <div class="file-section">
+              <h4>出題内容</h4>
+              <div class="file-toggle">
+                <label class="toggle-option">
+                  <input type="radio" name="question-file" value="verbs" checked>
+                  <span>不規則動詞</span>
+                </label>
+                <label class="toggle-option">
+                  <input type="radio" name="question-file" value="sentences">
+                  <span>英文法（文型）</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- 200語習得モード -->
+          <div id="term-mode" class="exam-mode-content" style="display: none;">
+            <!-- Term選択 -->
+            <div class="term-section">
+              <h4>学習章を選択</h4>
+              <div class="term-options">
+                <label class="term-option">
+                  <input type="radio" name="term" value="term1" checked>
+                  <span>Term1 基礎200語</span>
+                </label>
+                <label class="term-option">
+                  <input type="radio" name="term" value="term2">
+                  <span>Term2 基礎200語</span>
+                </label>
+                <label class="term-option">
+                  <input type="radio" name="term" value="term3">
+                  <span>Term3 基礎200語</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
           <!-- フィルター選択 -->
           <div class="filter-section">
             <h4>問題範囲</h4>
@@ -69,6 +124,45 @@ class Sidebar {
         </div>
       </div>
     `;
+  }
+
+  /**
+   * 出題モード変更イベントリスナーを設定
+   * @param {Function} callback - (mode) => void
+   */
+  static onExamModeChange(callback) {
+    const modeInputs = document.querySelectorAll('input[name="exam-mode"]');
+    modeInputs.forEach(input => {
+      input.addEventListener('change', (e) => {
+        callback(e.target.value);
+      });
+    });
+  }
+
+  /**
+   * Term選択変更イベントリスナーを設定
+   * @param {Function} callback - (termId) => void
+   */
+  static onTermChange(callback) {
+    const termInputs = document.querySelectorAll('input[name="term"]');
+    termInputs.forEach(input => {
+      input.addEventListener('change', (e) => {
+        callback(e.target.value);
+      });
+    });
+  }
+
+  /**
+   * ファイル選択変更イベントリスナーを設定
+   * @param {Function} callback - (fileType) => void
+   */
+  static onFileChange(callback) {
+    const fileInputs = document.querySelectorAll('input[name="question-file"]');
+    fileInputs.forEach(input => {
+      input.addEventListener('change', (e) => {
+        callback(e.target.value);
+      });
+    });
   }
 
   /**
@@ -143,6 +237,24 @@ class Sidebar {
   static getSelectedFilter() {
     const selected = document.querySelector('input[name="filter"]:checked');
     return selected ? selected.value : 'all';
+  }
+
+  /**
+   * 現在選択されている出題モードを取得
+   * @returns {string} 出題モード ('finals' or 'term')
+   */
+  static getSelectedExamMode() {
+    const selected = document.querySelector('input[name="exam-mode"]:checked');
+    return selected ? selected.value : 'finals';
+  }
+
+  /**
+   * 現在選択されているTermを取得
+   * @returns {string} Term ID ('term1', 'term2', ...)
+   */
+  static getSelectedTerm() {
+    const selected = document.querySelector('input[name="term"]:checked');
+    return selected ? selected.value : 'term1';
   }
 
   /**

@@ -9,6 +9,7 @@ import QuestionManager from './questionManager.js';
 import VerbRenderer from './renderers/verbRenderer.js';
 import ChoiceRenderer from './renderers/choiceRenderer.js';
 import ReorderRenderer from './renderers/reorderRenderer.js';
+import TypingRenderer from './renderers/typingRenderer.js';
 import Sidebar from './components/sidebar.js';
 import StatsPanel from './components/statsPanel.js';
 import QuizCard from './components/quizCard.js';
@@ -30,7 +31,8 @@ class QuizApp {
     this.renderers = {
       verb: VerbRenderer,
       choice: ChoiceRenderer,
-      reorder: ReorderRenderer
+      reorder: ReorderRenderer,
+      typing: TypingRenderer
     };
   }
 
@@ -42,8 +44,33 @@ class QuizApp {
       // UIを初期化
       this.renderUI();
       
-      // 問題データを読み込み
-      await this.loadQuestions();
+      // 保存された設定を取得
+      const settings = this.storage.getSettings();
+      const examMode = settings.examMode || 'finals';
+      
+      // 出題モードを復元
+      const modeInput = document.querySelector(`input[name="exam-mode"][value="${examMode}"]`);
+      if (modeInput) {
+        modeInput.checked = true;
+        this.updateExamModeUI(examMode);
+      }
+      
+      // モード別に問題を読み込み
+      if (examMode === 'term') {
+        const savedTerm = settings.termId || 'term1';
+        const termInput = document.querySelector(`input[name="term"][value="${savedTerm}"]`);
+        if (termInput) {
+          termInput.checked = true;
+        }
+        await this.loadQuestions(null, savedTerm);
+      } else {
+        const savedFileType = settings.fileType || 'verbs';
+        const fileTypeInput = document.querySelector(`input[name="question-file"][value="${savedFileType}"]`);
+        if (fileTypeInput) {
+          fileTypeInput.checked = true;
+        }
+        await this.loadQuestions(savedFileType);
+      }
       
       // イベントリスナーを設定
       this.setupEventListeners();
@@ -77,16 +104,125 @@ class QuizApp {
 
   /**
    * 問題データを読み込み
+   * @param {string} fileType - 'verbs', 'sentences', または null（デフォルト）
+   * @param {string} termId - 'term1', 'term2', ... または null
    */
-  async loadQuestions() {
-    this.allQuestions = await this.questionManager.loadQuestions();
+  async loadQuestions(fileType = null, termId = null) {
+    if (termId) {
+      this.allQuestions = await this.questionManager.loadQuestionsByTerm(termId);
+    } else if (fileType) {
+      this.allQuestions = await this.questionManager.loadQuestionsByType(fileType);
+    } else {
+      this.allQuestions = await this.questionManager.loadQuestions();
+    }
     console.log(`${this.allQuestions.length}問の問題を読み込みました`);
+  }
+
+  /**
+   * 出題モード切り替え時にUIを更新
+   * @param {string} mode - 'finals' または 'term'
+   */
+  updateExamModeUI(mode) {
+    const finalsModeDiv = document.getElementById('finals-mode');
+    const termModeDiv = document.getElementById('term-mode');
+    
+    if (mode === 'term') {
+      finalsModeDiv.style.display = 'none';
+      termModeDiv.style.display = 'block';
+    } else {
+      finalsModeDiv.style.display = 'block';
+      termModeDiv.style.display = 'none';
+    }
   }
 
   /**
    * イベントリスナーを設定
    */
   setupEventListeners() {
+    // 出題モード変更
+    Sidebar.onExamModeChange(async (mode) => {
+      // UIを更新
+      this.updateExamModeUI(mode);
+      
+      // 設定を保存
+      this.storage.saveSettings({
+        filterType: Sidebar.getSelectedFilter(),
+        accuracyThreshold: Sidebar.getThreshold(),
+        examMode: mode,
+        fileType: mode === 'finals' ? Sidebar.getSelectedFileType() : undefined,
+        termId: mode === 'term' ? Sidebar.getSelectedTerm() : undefined
+      });
+      
+      // 問題を再読み込み
+      if (mode === 'term') {
+        const termId = Sidebar.getSelectedTerm();
+        await this.loadQuestions(null, termId);
+      } else {
+        const fileType = Sidebar.getSelectedFileType();
+        await this.loadQuestions(fileType);
+      }
+      
+      // フィルターを初期化
+      const allFilterInput = document.querySelector('input[name="filter"][value="all"]');
+      if (allFilterInput) {
+        allFilterInput.checked = true;
+      }
+      
+      // フィルターを適用して表示
+      this.applyFilter();
+      this.showCurrentQuestion();
+      this.updateStatsPanel();
+    });
+
+    // Term選択変更
+    Sidebar.onTermChange(async (termId) => {
+      // 選択したTermをストレージに保存
+      this.storage.saveSettings({
+        filterType: Sidebar.getSelectedFilter(),
+        accuracyThreshold: Sidebar.getThreshold(),
+        examMode: 'term',
+        termId: termId
+      });
+      
+      // 新しいTermを読み込む
+      await this.loadQuestions(null, termId);
+      
+      // フィルターを初期化
+      const allFilterInput = document.querySelector('input[name="filter"][value="all"]');
+      if (allFilterInput) {
+        allFilterInput.checked = true;
+      }
+      
+      // フィルターを適用して表示
+      this.applyFilter();
+      this.showCurrentQuestion();
+      this.updateStatsPanel();
+    });
+
+    // ファイル選択変更
+    Sidebar.onFileChange(async (fileType) => {
+      // 選択したファイルタイプをストレージに保存
+      this.storage.saveSettings({
+        filterType: Sidebar.getSelectedFilter(),
+        accuracyThreshold: Sidebar.getThreshold(),
+        fileType: fileType
+      });
+      
+      // 新しいファイルを読み込む
+      await this.loadQuestions(fileType);
+      
+      // フィルターを初期化（デフォルトのallを選択）
+      const allFilterInput = document.querySelector('input[name="filter"][value="all"]');
+      if (allFilterInput) {
+        allFilterInput.checked = true;
+      }
+      
+      // フィルターを適用して問題を表示
+      this.applyFilter();
+      this.showCurrentQuestion();
+      this.updateStatsPanel();
+    });
+    
     // フィルター変更
     Sidebar.onFilterChange((filterType) => {
       this.applyFilter();

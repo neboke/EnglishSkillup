@@ -1,0 +1,1554 @@
+[
+  {
+    "id": "term1_a_be",
+    "type": "typing",
+    "japanese": "～である",
+    "english": "be",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_have",
+    "type": "typing",
+    "japanese": "持っている",
+    "english": "have",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_do",
+    "type": "typing",
+    "japanese": "する",
+    "english": "do",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_go",
+    "type": "typing",
+    "japanese": "行く",
+    "english": "go",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_come",
+    "type": "typing",
+    "japanese": "来る",
+    "english": "come",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_get",
+    "type": "typing",
+    "japanese": "得る",
+    "english": "get",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_make",
+    "type": "typing",
+    "japanese": "作る",
+    "english": "make",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_take",
+    "type": "typing",
+    "japanese": "取る",
+    "english": "take",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_give",
+    "type": "typing",
+    "japanese": "与える",
+    "english": "give",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_put",
+    "type": "typing",
+    "japanese": "置く",
+    "english": "put",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_see",
+    "type": "typing",
+    "japanese": "見る",
+    "english": "see",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_look",
+    "type": "typing",
+    "japanese": "見る",
+    "english": "look",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_watch",
+    "type": "typing",
+    "japanese": "注意して見る",
+    "english": "watch",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_hear",
+    "type": "typing",
+    "japanese": "聞こえる",
+    "english": "hear",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_listen",
+    "type": "typing",
+    "japanese": "聞く",
+    "english": "listen",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_say",
+    "type": "typing",
+    "japanese": "言う",
+    "english": "say",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_tell",
+    "type": "typing",
+    "japanese": "伝える",
+    "english": "tell",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_speak",
+    "type": "typing",
+    "japanese": "話す",
+    "english": "speak",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_talk",
+    "type": "typing",
+    "japanese": "話す",
+    "english": "talk",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_ask",
+    "type": "typing",
+    "japanese": "尋ねる",
+    "english": "ask",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_answer",
+    "type": "typing",
+    "japanese": "答える",
+    "english": "answer",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_know",
+    "type": "typing",
+    "japanese": "知っている",
+    "english": "know",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_think",
+    "type": "typing",
+    "japanese": "思う",
+    "english": "think",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_feel",
+    "type": "typing",
+    "japanese": "感じる",
+    "english": "feel",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_find",
+    "type": "typing",
+    "japanese": "見つける",
+    "english": "find",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_use",
+    "type": "typing",
+    "japanese": "使う",
+    "english": "use",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_work",
+    "type": "typing",
+    "japanese": "働く",
+    "english": "work",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_study",
+    "type": "typing",
+    "japanese": "勉強する",
+    "english": "study",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_learn",
+    "type": "typing",
+    "japanese": "学ぶ",
+    "english": "learn",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_teach",
+    "type": "typing",
+    "japanese": "教える",
+    "english": "teach",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_play",
+    "type": "typing",
+    "japanese": "遊ぶ",
+    "english": "play",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_run",
+    "type": "typing",
+    "japanese": "走る",
+    "english": "run",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_walk",
+    "type": "typing",
+    "japanese": "歩く",
+    "english": "walk",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_live",
+    "type": "typing",
+    "japanese": "住む",
+    "english": "live",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_like",
+    "type": "typing",
+    "japanese": "好む",
+    "english": "like",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_love",
+    "type": "typing",
+    "japanese": "愛する",
+    "english": "love",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_need",
+    "type": "typing",
+    "japanese": "必要とする",
+    "english": "need",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_a_want",
+    "type": "typing",
+    "japanese": "欲しい",
+    "english": "want",
+    "category": "A",
+    "categoryName": "基本動詞"
+  },
+  {
+    "id": "term1_b_be",
+    "type": "typing",
+    "japanese": "～である",
+    "english": "be",
+    "category": "B",
+    "categoryName": "不規則動詞"
+  },
+  {
+    "id": "term1_b_have",
+    "type": "typing",
+    "japanese": "持っている",
+    "english": "have",
+    "category": "B",
+    "categoryName": "不規則動詞"
+  },
+  {
+    "id": "term1_b_do",
+    "type": "typing",
+    "japanese": "する",
+    "english": "do",
+    "category": "B",
+    "categoryName": "不規則動詞"
+  },
+  {
+    "id": "term1_b_go",
+    "type": "typing",
+    "japanese": "行く",
+    "english": "go",
+    "category": "B",
+    "categoryName": "不規則動詞"
+  },
+  {
+    "id": "term1_b_come",
+    "type": "typing",
+    "japanese": "来る",
+    "english": "come",
+    "category": "B",
+    "categoryName": "不規則動詞"
+  },
+  {
+    "id": "term1_b_get",
+    "type": "typing",
+    "japanese": "得る",
+    "english": "get",
+    "category": "B",
+    "categoryName": "不規則動詞"
+  },
+  {
+    "id": "term1_b_make",
+    "type": "typing",
+    "japanese": "作る",
+    "english": "make",
+    "category": "B",
+    "categoryName": "不規則動詞"
+  },
+  {
+    "id": "term1_b_take",
+    "type": "typing",
+    "japanese": "取る",
+    "english": "take",
+    "category": "B",
+    "categoryName": "不規則動詞"
+  },
+  {
+    "id": "term1_b_give",
+    "type": "typing",
+    "japanese": "与える",
+    "english": "give",
+    "category": "B",
+    "categoryName": "不規則動詞"
+  },
+  {
+    "id": "term1_b_see",
+    "type": "typing",
+    "japanese": "見る",
+    "english": "see",
+    "category": "B",
+    "categoryName": "不規則動詞"
+  },
+  {
+    "id": "term1_b_eat",
+    "type": "typing",
+    "japanese": "食べる",
+    "english": "eat",
+    "category": "B",
+    "categoryName": "不規則動詞"
+  },
+  {
+    "id": "term1_b_drink",
+    "type": "typing",
+    "japanese": "飲む",
+    "english": "drink",
+    "category": "B",
+    "categoryName": "不規則動詞"
+  },
+  {
+    "id": "term1_b_run",
+    "type": "typing",
+    "japanese": "走る",
+    "english": "run",
+    "category": "B",
+    "categoryName": "不規則動詞"
+  },
+  {
+    "id": "term1_b_write",
+    "type": "typing",
+    "japanese": "書く",
+    "english": "write",
+    "category": "B",
+    "categoryName": "不規則動詞"
+  },
+  {
+    "id": "term1_b_read",
+    "type": "typing",
+    "japanese": "読む",
+    "english": "read",
+    "category": "B",
+    "categoryName": "不規則動詞"
+  },
+  {
+    "id": "term1_c_time",
+    "type": "typing",
+    "japanese": "時間",
+    "english": "time",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_day",
+    "type": "typing",
+    "japanese": "日",
+    "english": "day",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_week",
+    "type": "typing",
+    "japanese": "週",
+    "english": "week",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_year",
+    "type": "typing",
+    "japanese": "年",
+    "english": "year",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_today",
+    "type": "typing",
+    "japanese": "今日",
+    "english": "today",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_people",
+    "type": "typing",
+    "japanese": "人々",
+    "english": "people",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_person",
+    "type": "typing",
+    "japanese": "人",
+    "english": "person",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_man",
+    "type": "typing",
+    "japanese": "男性",
+    "english": "man",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_woman",
+    "type": "typing",
+    "japanese": "女性",
+    "english": "woman",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_child",
+    "type": "typing",
+    "japanese": "子ども",
+    "english": "child",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_family",
+    "type": "typing",
+    "japanese": "家族",
+    "english": "family",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_friend",
+    "type": "typing",
+    "japanese": "友達",
+    "english": "friend",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_life",
+    "type": "typing",
+    "japanese": "生活",
+    "english": "life",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_world",
+    "type": "typing",
+    "japanese": "世界",
+    "english": "world",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_country",
+    "type": "typing",
+    "japanese": "国",
+    "english": "country",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_city",
+    "type": "typing",
+    "japanese": "都市",
+    "english": "city",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_school",
+    "type": "typing",
+    "japanese": "学校",
+    "english": "school",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_class",
+    "type": "typing",
+    "japanese": "クラス",
+    "english": "class",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_student",
+    "type": "typing",
+    "japanese": "生徒",
+    "english": "student",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_teacher",
+    "type": "typing",
+    "japanese": "先生",
+    "english": "teacher",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_home",
+    "type": "typing",
+    "japanese": "家",
+    "english": "home",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_house",
+    "type": "typing",
+    "japanese": "家",
+    "english": "house",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_room",
+    "type": "typing",
+    "japanese": "部屋",
+    "english": "room",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_place",
+    "type": "typing",
+    "japanese": "場所",
+    "english": "place",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_thing",
+    "type": "typing",
+    "japanese": "物",
+    "english": "thing",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_problem",
+    "type": "typing",
+    "japanese": "問題",
+    "english": "problem",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_question",
+    "type": "typing",
+    "japanese": "質問",
+    "english": "question",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_answer",
+    "type": "typing",
+    "japanese": "答え",
+    "english": "answer",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_way",
+    "type": "typing",
+    "japanese": "方法",
+    "english": "way",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_idea",
+    "type": "typing",
+    "japanese": "考え",
+    "english": "idea",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_story",
+    "type": "typing",
+    "japanese": "話",
+    "english": "story",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_example",
+    "type": "typing",
+    "japanese": "例",
+    "english": "example",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_part",
+    "type": "typing",
+    "japanese": "部分",
+    "english": "part",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_number",
+    "type": "typing",
+    "japanese": "数",
+    "english": "number",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_name",
+    "type": "typing",
+    "japanese": "名前",
+    "english": "name",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_work",
+    "type": "typing",
+    "japanese": "仕事",
+    "english": "work",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_job",
+    "type": "typing",
+    "japanese": "職業",
+    "english": "job",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_food",
+    "type": "typing",
+    "japanese": "食べ物",
+    "english": "food",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_water",
+    "type": "typing",
+    "japanese": "水",
+    "english": "water",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_money",
+    "type": "typing",
+    "japanese": "お金",
+    "english": "money",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_music",
+    "type": "typing",
+    "japanese": "音楽",
+    "english": "music",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_sport",
+    "type": "typing",
+    "japanese": "スポーツ",
+    "english": "sport",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_team",
+    "type": "typing",
+    "japanese": "チーム",
+    "english": "team",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_c_game",
+    "type": "typing",
+    "japanese": "試合",
+    "english": "game",
+    "category": "C",
+    "categoryName": "名詞"
+  },
+  {
+    "id": "term1_d_good",
+    "type": "typing",
+    "japanese": "良い",
+    "english": "good",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_d_bad",
+    "type": "typing",
+    "japanese": "悪い",
+    "english": "bad",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_d_new",
+    "type": "typing",
+    "japanese": "新しい",
+    "english": "new",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_d_old",
+    "type": "typing",
+    "japanese": "古い",
+    "english": "old",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_d_big",
+    "type": "typing",
+    "japanese": "大きい",
+    "english": "big",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_d_small",
+    "type": "typing",
+    "japanese": "小さい",
+    "english": "small",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_d_long",
+    "type": "typing",
+    "japanese": "長い",
+    "english": "long",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_d_short",
+    "type": "typing",
+    "japanese": "短い",
+    "english": "short",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_d_high",
+    "type": "typing",
+    "japanese": "高い",
+    "english": "high",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_d_low",
+    "type": "typing",
+    "japanese": "低い",
+    "english": "low",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_d_easy",
+    "type": "typing",
+    "japanese": "簡単な",
+    "english": "easy",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_d_difficult",
+    "type": "typing",
+    "japanese": "難しい",
+    "english": "difficult",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_d_important",
+    "type": "typing",
+    "japanese": "重要な",
+    "english": "important",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_d_interesting",
+    "type": "typing",
+    "japanese": "面白い",
+    "english": "interesting",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_d_fun",
+    "type": "typing",
+    "japanese": "楽しい",
+    "english": "fun",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_d_happy",
+    "type": "typing",
+    "japanese": "幸せな",
+    "english": "happy",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_d_sad",
+    "type": "typing",
+    "japanese": "悲しい",
+    "english": "sad",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_d_busy",
+    "type": "typing",
+    "japanese": "忙しい",
+    "english": "busy",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_d_free",
+    "type": "typing",
+    "japanese": "暇な",
+    "english": "free",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_d_right",
+    "type": "typing",
+    "japanese": "正しい",
+    "english": "right",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_d_wrong",
+    "type": "typing",
+    "japanese": "間違った",
+    "english": "wrong",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_d_same",
+    "type": "typing",
+    "japanese": "同じ",
+    "english": "same",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_d_different",
+    "type": "typing",
+    "japanese": "違う",
+    "english": "different",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_d_early",
+    "type": "typing",
+    "japanese": "早い",
+    "english": "early",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_d_late",
+    "type": "typing",
+    "japanese": "遅い",
+    "english": "late",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_d_many",
+    "type": "typing",
+    "japanese": "多くの",
+    "english": "many",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_d_much",
+    "type": "typing",
+    "japanese": "多量の",
+    "english": "much",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_d_little",
+    "type": "typing",
+    "japanese": "少しの",
+    "english": "little",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_d_few",
+    "type": "typing",
+    "japanese": "少数の",
+    "english": "few",
+    "category": "D",
+    "categoryName": "形容詞"
+  },
+  {
+    "id": "term1_e_very",
+    "type": "typing",
+    "japanese": "とても",
+    "english": "very",
+    "category": "E",
+    "categoryName": "副詞"
+  },
+  {
+    "id": "term1_e_really",
+    "type": "typing",
+    "japanese": "本当に",
+    "english": "really",
+    "category": "E",
+    "categoryName": "副詞"
+  },
+  {
+    "id": "term1_e_too",
+    "type": "typing",
+    "japanese": "～すぎる",
+    "english": "too",
+    "category": "E",
+    "categoryName": "副詞"
+  },
+  {
+    "id": "term1_e_also",
+    "type": "typing",
+    "japanese": "〜もまた",
+    "english": "also",
+    "category": "E",
+    "categoryName": "副詞"
+  },
+  {
+    "id": "term1_e_only",
+    "type": "typing",
+    "japanese": "〜だけ",
+    "english": "only",
+    "category": "E",
+    "categoryName": "副詞"
+  },
+  {
+    "id": "term1_e_just",
+    "type": "typing",
+    "japanese": "たった今",
+    "english": "just",
+    "category": "E",
+    "categoryName": "副詞"
+  },
+  {
+    "id": "term1_e_often",
+    "type": "typing",
+    "japanese": "よく",
+    "english": "often",
+    "category": "E",
+    "categoryName": "副詞"
+  },
+  {
+    "id": "term1_e_usually",
+    "type": "typing",
+    "japanese": "普段は",
+    "english": "usually",
+    "category": "E",
+    "categoryName": "副詞"
+  },
+  {
+    "id": "term1_e_always",
+    "type": "typing",
+    "japanese": "いつも",
+    "english": "always",
+    "category": "E",
+    "categoryName": "副詞"
+  },
+  {
+    "id": "term1_e_sometimes",
+    "type": "typing",
+    "japanese": "時々",
+    "english": "sometimes",
+    "category": "E",
+    "categoryName": "副詞"
+  },
+  {
+    "id": "term1_e_never",
+    "type": "typing",
+    "japanese": "決して～ない",
+    "english": "never",
+    "category": "E",
+    "categoryName": "副詞"
+  },
+  {
+    "id": "term1_e_soon",
+    "type": "typing",
+    "japanese": "すぐに",
+    "english": "soon",
+    "category": "E",
+    "categoryName": "副詞"
+  },
+  {
+    "id": "term1_e_now",
+    "type": "typing",
+    "japanese": "今",
+    "english": "now",
+    "category": "E",
+    "categoryName": "副詞"
+  },
+  {
+    "id": "term1_e_then",
+    "type": "typing",
+    "japanese": "その時",
+    "english": "then",
+    "category": "E",
+    "categoryName": "副詞"
+  },
+  {
+    "id": "term1_e_here",
+    "type": "typing",
+    "japanese": "ここに",
+    "english": "here",
+    "category": "E",
+    "categoryName": "副詞"
+  },
+  {
+    "id": "term1_e_there",
+    "type": "typing",
+    "japanese": "そこに",
+    "english": "there",
+    "category": "E",
+    "categoryName": "副詞"
+  },
+  {
+    "id": "term1_e_well",
+    "type": "typing",
+    "japanese": "上手に",
+    "english": "well",
+    "category": "E",
+    "categoryName": "副詞"
+  },
+  {
+    "id": "term1_e_fast",
+    "type": "typing",
+    "japanese": "速く",
+    "english": "fast",
+    "category": "E",
+    "categoryName": "副詞"
+  },
+  {
+    "id": "term1_e_hard",
+    "type": "typing",
+    "japanese": "一生懸命に",
+    "english": "hard",
+    "category": "E",
+    "categoryName": "副詞"
+  },
+  {
+    "id": "term1_e_together",
+    "type": "typing",
+    "japanese": "一緒に",
+    "english": "together",
+    "category": "E",
+    "categoryName": "副詞"
+  },
+  {
+    "id": "term1_f_in",
+    "type": "typing",
+    "japanese": "～の中に",
+    "english": "in",
+    "category": "F",
+    "categoryName": "前置詞"
+  },
+  {
+    "id": "term1_f_on",
+    "type": "typing",
+    "japanese": "～の上に",
+    "english": "on",
+    "category": "F",
+    "categoryName": "前置詞"
+  },
+  {
+    "id": "term1_f_at",
+    "type": "typing",
+    "japanese": "～で",
+    "english": "at",
+    "category": "F",
+    "categoryName": "前置詞"
+  },
+  {
+    "id": "term1_f_to",
+    "type": "typing",
+    "japanese": "～へ",
+    "english": "to",
+    "category": "F",
+    "categoryName": "前置詞"
+  },
+  {
+    "id": "term1_f_from",
+    "type": "typing",
+    "japanese": "～から",
+    "english": "from",
+    "category": "F",
+    "categoryName": "前置詞"
+  },
+  {
+    "id": "term1_f_for",
+    "type": "typing",
+    "japanese": "～のために",
+    "english": "for",
+    "category": "F",
+    "categoryName": "前置詞"
+  },
+  {
+    "id": "term1_f_with",
+    "type": "typing",
+    "japanese": "～と一緒に",
+    "english": "with",
+    "category": "F",
+    "categoryName": "前置詞"
+  },
+  {
+    "id": "term1_f_about",
+    "type": "typing",
+    "japanese": "～について",
+    "english": "about",
+    "category": "F",
+    "categoryName": "前置詞"
+  },
+  {
+    "id": "term1_f_of",
+    "type": "typing",
+    "japanese": "～の",
+    "english": "of",
+    "category": "F",
+    "categoryName": "前置詞"
+  },
+  {
+    "id": "term1_f_by",
+    "type": "typing",
+    "japanese": "～によって",
+    "english": "by",
+    "category": "F",
+    "categoryName": "前置詞"
+  },
+  {
+    "id": "term1_f_under",
+    "type": "typing",
+    "japanese": "～の下に",
+    "english": "under",
+    "category": "F",
+    "categoryName": "前置詞"
+  },
+  {
+    "id": "term1_f_over",
+    "type": "typing",
+    "japanese": "～の上に",
+    "english": "over",
+    "category": "F",
+    "categoryName": "前置詞"
+  },
+  {
+    "id": "term1_f_before",
+    "type": "typing",
+    "japanese": "～の前に",
+    "english": "before",
+    "category": "F",
+    "categoryName": "前置詞"
+  },
+  {
+    "id": "term1_f_after",
+    "type": "typing",
+    "japanese": "～の後で",
+    "english": "after",
+    "category": "F",
+    "categoryName": "前置詞"
+  },
+  {
+    "id": "term1_f_between",
+    "type": "typing",
+    "japanese": "～の間に",
+    "english": "between",
+    "category": "F",
+    "categoryName": "前置詞"
+  },
+  {
+    "id": "term1_g_and",
+    "type": "typing",
+    "japanese": "そして",
+    "english": "and",
+    "category": "G",
+    "categoryName": "接続詞・機能語"
+  },
+  {
+    "id": "term1_g_but",
+    "type": "typing",
+    "japanese": "しかし",
+    "english": "but",
+    "category": "G",
+    "categoryName": "接続詞・機能語"
+  },
+  {
+    "id": "term1_g_or",
+    "type": "typing",
+    "japanese": "または",
+    "english": "or",
+    "category": "G",
+    "categoryName": "接続詞・機能語"
+  },
+  {
+    "id": "term1_g_so",
+    "type": "typing",
+    "japanese": "だから",
+    "english": "so",
+    "category": "G",
+    "categoryName": "接続詞・機能語"
+  },
+  {
+    "id": "term1_g_because",
+    "type": "typing",
+    "japanese": "なぜなら",
+    "english": "because",
+    "category": "G",
+    "categoryName": "接続詞・機能語"
+  },
+  {
+    "id": "term1_g_if",
+    "type": "typing",
+    "japanese": "もし",
+    "english": "if",
+    "category": "G",
+    "categoryName": "接続詞・機能語"
+  },
+  {
+    "id": "term1_g_when",
+    "type": "typing",
+    "japanese": "～のとき",
+    "english": "when",
+    "category": "G",
+    "categoryName": "接続詞・機能語"
+  },
+  {
+    "id": "term1_g_while",
+    "type": "typing",
+    "japanese": "～の間",
+    "english": "while",
+    "category": "G",
+    "categoryName": "接続詞・機能語"
+  },
+  {
+    "id": "term1_g_that",
+    "type": "typing",
+    "japanese": "～ということ",
+    "english": "that",
+    "category": "G",
+    "categoryName": "接続詞・機能語"
+  },
+  {
+    "id": "term1_g_who",
+    "type": "typing",
+    "japanese": "誰",
+    "english": "who",
+    "category": "G",
+    "categoryName": "接続詞・機能語"
+  },
+  {
+    "id": "term1_g_what",
+    "type": "typing",
+    "japanese": "何",
+    "english": "what",
+    "category": "G",
+    "categoryName": "接続詞・機能語"
+  },
+  {
+    "id": "term1_g_which",
+    "type": "typing",
+    "japanese": "どちら",
+    "english": "which",
+    "category": "G",
+    "categoryName": "接続詞・機能語"
+  },
+  {
+    "id": "term1_g_this",
+    "type": "typing",
+    "japanese": "これ",
+    "english": "this",
+    "category": "G",
+    "categoryName": "接続詞・機能語"
+  },
+  {
+    "id": "term1_g_these",
+    "type": "typing",
+    "japanese": "これら",
+    "english": "these",
+    "category": "G",
+    "categoryName": "接続詞・機能語"
+  },
+  {
+    "id": "term1_g_those",
+    "type": "typing",
+    "japanese": "あれら",
+    "english": "those",
+    "category": "G",
+    "categoryName": "接続詞・機能語"
+  },
+  {
+    "id": "term1_g_it",
+    "type": "typing",
+    "japanese": "それ",
+    "english": "it",
+    "category": "G",
+    "categoryName": "接続詞・機能語"
+  },
+  {
+    "id": "term1_g_yes",
+    "type": "typing",
+    "japanese": "はい",
+    "english": "yes",
+    "category": "G",
+    "categoryName": "接続詞・機能語"
+  },
+  {
+    "id": "term1_g_no",
+    "type": "typing",
+    "japanese": "いいえ",
+    "english": "no",
+    "category": "G",
+    "categoryName": "接続詞・機能語"
+  },
+  {
+    "id": "term1_h_i",
+    "type": "typing",
+    "japanese": "私は",
+    "english": "I",
+    "category": "H",
+    "categoryName": "代名詞・限定語"
+  },
+  {
+    "id": "term1_h_you",
+    "type": "typing",
+    "japanese": "あなたは",
+    "english": "you",
+    "category": "H",
+    "categoryName": "代名詞・限定語"
+  },
+  {
+    "id": "term1_h_he",
+    "type": "typing",
+    "japanese": "彼は",
+    "english": "he",
+    "category": "H",
+    "categoryName": "代名詞・限定語"
+  },
+  {
+    "id": "term1_h_she",
+    "type": "typing",
+    "japanese": "彼女は",
+    "english": "she",
+    "category": "H",
+    "categoryName": "代名詞・限定語"
+  },
+  {
+    "id": "term1_h_we",
+    "type": "typing",
+    "japanese": "私たちは",
+    "english": "we",
+    "category": "H",
+    "categoryName": "代名詞・限定語"
+  },
+  {
+    "id": "term1_h_they",
+    "type": "typing",
+    "japanese": "彼らは",
+    "english": "they",
+    "category": "H",
+    "categoryName": "代名詞・限定語"
+  },
+  {
+    "id": "term1_h_me",
+    "type": "typing",
+    "japanese": "私を",
+    "english": "me",
+    "category": "H",
+    "categoryName": "代名詞・限定語"
+  },
+  {
+    "id": "term1_h_him",
+    "type": "typing",
+    "japanese": "彼を",
+    "english": "him",
+    "category": "H",
+    "categoryName": "代名詞・限定語"
+  },
+  {
+    "id": "term1_h_her",
+    "type": "typing",
+    "japanese": "彼女を",
+    "english": "her",
+    "category": "H",
+    "categoryName": "代名詞・限定語"
+  },
+  {
+    "id": "term1_h_us",
+    "type": "typing",
+    "japanese": "私たちを",
+    "english": "us",
+    "category": "H",
+    "categoryName": "代名詞・限定語"
+  },
+  {
+    "id": "term1_h_them",
+    "type": "typing",
+    "japanese": "彼らを",
+    "english": "them",
+    "category": "H",
+    "categoryName": "代名詞・限定語"
+  },
+  {
+    "id": "term1_h_my",
+    "type": "typing",
+    "japanese": "私の",
+    "english": "my",
+    "category": "H",
+    "categoryName": "代名詞・限定語"
+  },
+  {
+    "id": "term1_h_your",
+    "type": "typing",
+    "japanese": "あなたの",
+    "english": "your",
+    "category": "H",
+    "categoryName": "代名詞・限定語"
+  },
+  {
+    "id": "term1_h_his",
+    "type": "typing",
+    "japanese": "彼の",
+    "english": "his",
+    "category": "H",
+    "categoryName": "代名詞・限定語"
+  },
+  {
+    "id": "term1_h_their",
+    "type": "typing",
+    "japanese": "彼らの",
+    "english": "their",
+    "category": "H",
+    "categoryName": "代名詞・限定語"
+  }
+]

@@ -33,6 +33,150 @@
   padding: 20px;
 }
 
+/* 出題モードセクション */
+.mode-section {
+  margin-bottom: 25px;
+  padding: 15px;
+  background: #fff8f0;
+  border-radius: 8px;
+  border-left: 4px solid #ff9d42;
+}
+
+.mode-section h4 {
+  margin-bottom: 12px;
+  color: #333;
+  font-weight: 600;
+}
+
+.mode-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mode-option {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+
+.mode-option:hover {
+  background: #ffe4cc;
+}
+
+.mode-option input[type="radio"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.mode-option span {
+  cursor: pointer;
+}
+
+/* 出題モードコンテンツ */
+.exam-mode-content {
+  margin-bottom: 20px;
+}
+
+/* Term選択セクション */
+.term-section {
+  margin-bottom: 30px;
+  padding: 15px;
+  background: #f0f7ff;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+}
+
+.term-section h4 {
+  margin-bottom: 12px;
+  color: #333;
+  font-weight: 600;
+}
+
+.term-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.term-option {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+
+.term-option:hover {
+  background: #e0edff;
+}
+
+.term-option input[type="radio"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.term-option span {
+  cursor: pointer;
+}
+
+/* ファイル選択セクション */
+.file-section {
+  margin-bottom: 30px;
+  padding: 15px;
+  background: #f0f7ff;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+}
+
+.file-section h4 {
+  margin-bottom: 12px;
+  color: #333;
+  font-weight: 600;
+}
+
+.file-toggle {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.toggle-option {
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  background: white;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.toggle-option:hover {
+  background: #f8f9fa;
+  border-color: #667eea;
+}
+
+.toggle-option input[type="radio"] {
+  margin-right: 10px;
+  cursor: pointer;
+  accent-color: #667eea;
+}
+
+.toggle-option input[type="radio"]:checked + span {
+  font-weight: 600;
+  color: #667eea;
+}
+
+.toggle-option span {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
 /* フィルターセクション */
 .filter-section {
   margin-bottom: 30px;

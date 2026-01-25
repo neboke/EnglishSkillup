@@ -9,6 +9,15 @@ class QuestionManager {
       'data/questions_finals_verbs.json',
       'data/questions_finals_sentences.json'
     ];
+    this.fileMap = {
+      'verbs': 'data/questions_finals_verbs.json',
+      'sentences': 'data/questions_finals_sentences.json'
+    };
+    this.termMap = {
+      'term1': 'data/term1_basic200.json',
+      'term2': 'data/term2_basic200.json',
+      'term3': 'data/term3_basic200.json'
+    };
   }
 
   /**
@@ -31,6 +40,58 @@ class QuestionManager {
       
       const results = await Promise.all(promises);
       this.questions = results.flat(); // 配列を平坦化
+      return this.questions;
+    } catch (error) {
+      console.error('Error loading questions:', error);
+      throw error;
+    }
+  }
+
+  /**
+   * ファイルタイプで指定して問題を読み込む
+   * @param {string} fileType - 'verbs' または 'sentences'
+   * @returns {Promise<Array>} 問題配列
+   */
+  async loadQuestionsByType(fileType) {
+    const file = this.fileMap[fileType];
+    if (!file) {
+      console.error(`Unknown file type: ${fileType}`);
+      return [];
+    }
+    
+    try {
+      const response = await fetch(file);
+      if (!response.ok) {
+        throw new Error(`Failed to load ${file}`);
+      }
+      const data = await response.json();
+      this.questions = Array.isArray(data) ? data : [];
+      return this.questions;
+    } catch (error) {
+      console.error('Error loading questions:', error);
+      throw error;
+    }
+  }
+
+  /**
+   * Termで指定して問題を読み込む
+   * @param {string} termId - 'term1', 'term2', ...
+   * @returns {Promise<Array>} 問題配列
+   */
+  async loadQuestionsByTerm(termId) {
+    const file = this.termMap[termId];
+    if (!file) {
+      console.error(`Unknown term ID: ${termId}`);
+      return [];
+    }
+    
+    try {
+      const response = await fetch(file);
+      if (!response.ok) {
+        throw new Error(`Failed to load ${file}`);
+      }
+      const data = await response.json();
+      this.questions = Array.isArray(data) ? data : [];
       return this.questions;
     } catch (error) {
       console.error('Error loading questions:', error);

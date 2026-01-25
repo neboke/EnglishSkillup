@@ -147,7 +147,7 @@ class StorageManager {
 
   /**
    * 設定を保存
-   * @param {Object} settings - {filterType, accuracyThreshold}
+   * @param {Object} settings - {filterType, accuracyThreshold, fileType}
    */
   saveSettings(settings) {
     localStorage.setItem(this.SETTINGS_KEY, JSON.stringify(settings));
@@ -155,14 +155,15 @@ class StorageManager {
 
   /**
    * 設定を取得
-   * @returns {Object} {filterType, accuracyThreshold}
+   * @returns {Object} {filterType, accuracyThreshold, fileType}
    */
   getSettings() {
     const data = localStorage.getItem(this.SETTINGS_KEY);
     if (!data) {
       return {
         filterType: 'all',
-        accuracyThreshold: 80
+        accuracyThreshold: 80,
+        fileType: 'verbs'
       };
     }
     return JSON.parse(data);
