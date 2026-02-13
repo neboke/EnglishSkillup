@@ -777,5 +777,658 @@
     ],
     "category": "finals_range",
     "difficulty": "medium"
+  },
+  {
+    "id": "reorder_finals_069",
+    "type": "reorder",
+    "prompt": "とてもよかったよ！故郷の近くにある世界遺産を訪れたんだ。",
+    "template": "I visited a __0__ site near my __1__.",
+    "blanks": [
+      "World Heritage",
+      "hometown"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reorder_finals_070",
+    "type": "reorder",
+    "prompt": "それは何て呼ばれているの？",
+    "template": "What __0__ it __1__?",
+    "blanks": [
+      "is",
+      "called"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reorder_finals_071",
+    "type": "reorder",
+    "prompt": "それはケープ植物区と呼ばれているよ。",
+    "template": "It __0__ the Cape __1__.",
+    "blanks": [
+      "is called",
+      "Floral Region"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reorder_finals_072",
+    "type": "reorder",
+    "prompt": "植物の多様性で知られているんだ。",
+    "template": "It __0__ for __1__.",
+    "blanks": [
+      "is known",
+      "its biodiversity"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reorder_finals_073",
+    "type": "reorder",
+    "prompt": "9,000種類を超える植物があるんだ。",
+    "template": "There are more than 9,000 __0__ of plants.",
+    "blanks": [
+      "species"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reorder_finals_074",
+    "type": "reorder",
+    "prompt": "そのうち69%はそこだけで見られるんだ。",
+    "template": "Sixty-nine percent of them __0__ only __1__ there.",
+    "blanks": [
+      "can be found",
+      "there"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reorder_finals_075",
+    "type": "reorder",
+    "prompt": "タージ・マハルは最も人気のある世界遺産の1つです。",
+    "template": "The Taj Mahal is __0__ of the __1__ popular __2__ sites.",
+    "blanks": [
+      "one",
+      "most",
+      "World Heritage"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reorder_finals_076",
+    "type": "reorder",
+    "prompt": "それは350年以上前に皇帝シャー・ジャハーンによって彼の妻を記念して建てられました。",
+    "template": "It __0__ Emperor Shah Jahan __1__ of his wife more than 350 years ago.",
+    "blanks": [
+      "was built by",
+      "in memory"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reorder_finals_077",
+    "type": "reorder",
+    "prompt": "現在、多くの人々に愛されています。",
+    "template": "Now, it __0__ many people.",
+    "blanks": [
+      "is loved by"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reorder_finals_078",
+    "type": "reorder",
+    "prompt": "タージ・マハルはそのユニークな建築様式によって知られています。",
+    "template": "The Taj Mahal __0__ for its unique architecture.",
+    "blanks": [
+      "is known"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reorder_finals_079",
+    "type": "reorder",
+    "prompt": "建物は白い大理石で覆われています。",
+    "template": "The building __0__ with white marble.",
+    "blanks": [
+      "is covered"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reorder_finals_080",
+    "type": "reorder",
+    "prompt": "壁には美しい宝石があります。",
+    "template": "There are beautiful __0__ on the walls.",
+    "blanks": [
+      "jewels"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reorder_finals_081",
+    "type": "reorder",
+    "prompt": "およそ1,000頭のゾウがこれらの材料を遠くから運んできたという研究者もいます。",
+    "template": "Some researchers say that about 1,000 elephants carried these __0__ from __1__ away.",
+    "blanks": [
+      "stones",
+      "far"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reorder_finals_082",
+    "type": "reorder",
+    "prompt": "しかしながら、タージ・マハルは問題に直面しています。",
+    "template": "However, the Taj Mahal is __0__ a problem.",
+    "blanks": [
+      "facing"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reorder_finals_083",
+    "type": "reorder",
+    "prompt": "白い大理石が、工場や車から発生する汚染物質のために黄色や緑に変色しているのです。",
+    "template": "Its white __0__ is turning yellow and green because of __1__ from __2__ and cars.",
+    "blanks": [
+      "marble",
+      "pollution",
+      "factories"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reorder_finals_084",
+    "type": "reorder",
+    "prompt": "データを示すためにグラフを使っていましたね。",
+    "template": "You also used __0__ to show your __1__.",
+    "blanks": [
+      "graphs",
+      "data"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reorder_finals_085",
+    "type": "reorder",
+    "prompt": "調査の結果を容易に理解することができました。",
+    "template": "I could easily understand the __0__ of your survey.",
+    "blanks": [
+      "results"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reorder_finals_086",
+    "type": "reorder",
+    "prompt": "スライドはよかったのですが、文字の中には小さすぎるものがありました。",
+    "template": "Your __0__ were good, but some of the __1__ were __2__ small.",
+    "blanks": [
+      "slides",
+      "letters",
+      "too"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reorder_finals_087",
+    "type": "reorder",
+    "prompt": "次回はもっと大きな文字を使ってください。",
+    "template": "Please use __0__ next time.",
+    "blanks": [
+      "larger letters"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reorder_finals_088",
+    "type": "reorder",
+    "prompt": "浅草駅までの行き方を教えてくださいませんか。",
+    "template": "__0__ to get to Asakusa Station?",
+    "blanks": [
+      "How can I get"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reorder_finals_089",
+    "type": "reorder",
+    "prompt": "JR山手線に乗って神田に行き、そこで乗り換えてください。",
+    "template": "__0__ the JR Yamanote Line to Kanda, and change trains there.",
+    "blanks": [
+      "Take"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reorder_finals_090",
+    "type": "reorder",
+    "prompt": "神田からはどの路線に乗ればよいですか。",
+    "template": "Which __0__ should I take from Kanda?",
+    "blanks": [
+      "line"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reorder_finals_091",
+    "type": "reorder",
+    "prompt": "浅草駅は神田から6つめの駅です。",
+    "template": "Asakusa Station is six __0__ from Kanda.",
+    "blanks": [
+      "stops"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reorder_finals_092",
+    "type": "reorder",
+    "prompt": "同じ方向に行きます。",
+    "template": "I'm going in the __0__.",
+    "blanks": [
+      "same direction"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reorder_finals_093",
+    "type": "reorder",
+    "prompt": "世界には独特で貴重な場所がたくさんあります。",
+    "template": "There are many __0__ and __1__ places in the world.",
+    "blanks": [
+      "unique",
+      "precious"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reorder_finals_094",
+    "type": "reorder",
+    "prompt": "その中のいくつかは世界遺産として選ばれています。",
+    "template": "Some of them __0__ as __1__ sites.",
+    "blanks": [
+      "are chosen",
+      "World Heritage"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reorder_finals_095",
+    "type": "reorder",
+    "prompt": "世界遺産には自然、文化、複合の3種類があります。",
+    "template": "There are three types of World Heritage sites — __0__, __1__, and __2__.",
+    "blanks": [
+      "natural",
+      "cultural",
+      "mixed"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reorder_finals_096",
+    "type": "reorder",
+    "prompt": "その選択基準は1972年にユネスコ総会で決定されました。",
+    "template": "The __0__ were decided at the UNESCO General __1__ in 1972.",
+    "blanks": [
+      "selection criteria",
+      "Conference"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reorder_finals_097",
+    "type": "reorder",
+    "prompt": "今、インド政府はこの遺産を保護しようとしています。",
+    "template": "Now, the __0__ of India is trying to __1__ the site.",
+    "blanks": [
+      "government",
+      "protect"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reorder_finals_098",
+    "type": "reorder",
+    "prompt": "富士山は2013年に世界文化遺産として登録されました。",
+    "template": "Mt. Fuji was __0__ as a cultural __1__ site in 2013.",
+    "blanks": [
+      "registered",
+      "heritage"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reorder_finals_099",
+    "type": "reorder",
+    "prompt": "富士山は日本でいちばん高い山です。",
+    "template": "It is the __0__ mountain in Japan.",
+    "blanks": [
+      "highest"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reorder_finals_100",
+    "type": "reorder",
+    "prompt": "しばしば写真や絵画や物語に登場します。",
+    "template": "It often __0__ in pictures, paintings, and stories.",
+    "blanks": [
+      "appears"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reorder_finals_101",
+    "type": "reorder",
+    "prompt": "銭湯の壁にも見られます。",
+    "template": "It __0__ on the walls of public baths.",
+    "blanks": [
+      "can be seen"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reorder_finals_102",
+    "type": "reorder",
+    "prompt": "毎年ますます多くの観光客が富士山に登ります。",
+    "template": "__0__ tourists climb Mt. Fuji every year.",
+    "blanks": [
+      "More and more"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reorder_finals_103",
+    "type": "reorder",
+    "prompt": "すばらしい日の出や雲海を楽しむことができます。",
+    "template": "They can enjoy a wonderful __0__ and a __1__ of clouds.",
+    "blanks": [
+      "sunrise",
+      "sea"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reorder_finals_104",
+    "type": "reorder",
+    "prompt": "観光客によって大量のごみが登山道に残されています。",
+    "template": "A __0__ of garbage is __1__ on the mountain __2__ by tourists.",
+    "blanks": [
+      "lot",
+      "left",
+      "trails"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reorder_finals_105",
+    "type": "reorder",
+    "prompt": "最近では、清掃活動や「ごみを持ち帰ろう」運動のおかげで、富士山はきれいになってきています。",
+    "template": "__0__ to __1__ activities and \"take your garbage home\" __2__, Mt. Fuji is becoming __3__.",
+    "blanks": [
+      "Thanks",
+      "cleaning",
+      "campaigns",
+      "cleaner"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reorder_finals_106",
+    "type": "reorder",
+    "prompt": "富士山がいつまでも人々に楽しんでもらえることを願っています。",
+    "template": "I hope Mt. Fuji __0__ people forever.",
+    "blanks": [
+      "will be enjoyed by"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reorder_finals_107",
+    "type": "reorder",
+    "prompt": "はい、お願いします。サリーをさがしているのですが。",
+    "template": "Yes, __0__. I'm __1__ a sari.",
+    "blanks": [
+      "please",
+      "looking for"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reorder_finals_108",
+    "type": "reorder",
+    "prompt": "すてきですね。おいくらですか。",
+    "template": "That __0__ nice. How __1__ is it?",
+    "blanks": [
+      "looks",
+      "much"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reorder_finals_109",
+    "type": "reorder",
+    "prompt": "試着してもよいですか。",
+    "template": "Can I __0__ this __1__?",
+    "blanks": [
+      "try",
+      "on"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reorder_finals_110",
+    "type": "reorder",
+    "prompt": "もう少し大きいものはありますか。",
+    "template": "Do you have a __0__ one?",
+    "blanks": [
+      "larger"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reorder_finals_111",
+    "type": "reorder",
+    "prompt": "どのサイズをおさがしですか。",
+    "template": "What size are you __0__?",
+    "blanks": [
+      "looking for"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reorder_finals_112",
+    "type": "reorder",
+    "prompt": "お似合いです。",
+    "template": "It __0__ nice __1__ you.",
+    "blanks": [
+      "looks",
+      "on"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reorder_finals_113",
+    "type": "reorder",
+    "prompt": "これらのグラフを見てください。",
+    "template": "Please look at these __0__.",
+    "blanks": [
+      "graphs"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reorder_finals_114",
+    "type": "reorder",
+    "prompt": "結果によると、クラスメートの80パーセントがスポーツが好きです。",
+    "template": "According to our __0__, 80 percent of our classmates like sports.",
+    "blanks": [
+      "survey"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reorder_finals_115",
+    "type": "reorder",
+    "prompt": "いちばん好きなスポーツについて言えば、クラスメートの12人がバスケットボールが最も好きです。",
+    "template": "As for favorite sports, 12 of our classmates like basketball the __0__.",
+    "blanks": [
+      "best"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reorder_finals_116",
+    "type": "reorder",
+    "prompt": "7人はテニスがいちばん好きで、サッカーも同じ人数でした。",
+    "template": "Seven of them like tennis the __0__, and soccer got the __1__ number.",
+    "blanks": [
+      "best",
+      "same"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reorder_finals_117",
+    "type": "reorder",
+    "prompt": "6人はほかのスポーツ、例えば野球、バレーボール、カーリングなどが好きです。",
+    "template": "Six like other sports, __0__ baseball, volleyball, or curling.",
+    "blanks": [
+      "such as"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reorder_finals_118",
+    "type": "reorder",
+    "prompt": "結論として、バスケットボールがクラスでいちばん人気のあるスポーツだとわかりました。",
+    "template": "__0__, we found that basketball is the __1__ popular sport in our class.",
+    "blanks": [
+      "In conclusion",
+      "most"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reorder_finals_124",
+    "type": "reorder",
+    "prompt": "しかし、クラスメートの過半数はバスケットボールよりほかのスポーツのほうが好きなのです。",
+    "template": "However, __0__ than __1__ of our classmates like other sports __2__ than basketball.",
+    "blanks": [
+      "more",
+      "half",
+      "better"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reorder_finals_119",
+    "type": "reorder",
+    "prompt": "サッカーがクラスでいちばん人気のスポーツではないことに驚きました。",
+    "template": "We were surprised that soccer is not the __0__ popular sport in our class.",
+    "blanks": [
+      "most"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reorder_finals_120",
+    "type": "reorder",
+    "prompt": "話題がよかったです。",
+    "template": "Your __0__ was good.",
+    "blanks": [
+      "topic"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reorder_finals_121",
+    "type": "reorder",
+    "prompt": "ぼくはサッカーがいちばん好きです。",
+    "template": "I like soccer __0__.",
+    "blanks": [
+      "the best"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reorder_finals_122",
+    "type": "reorder",
+    "prompt": "クラスでは、それは2番めに人気のあるスポーツで、テニスと同じくらい人気なのですね。",
+    "template": "In our class, it is the __0__ most popular sport, and it is __1__ popular __2__ tennis.",
+    "blanks": [
+      "second",
+      "as",
+      "as"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reorder_finals_123",
+    "type": "reorder",
+    "prompt": "今、ぼくの好きなサッカー選手についてクラスメートと話をしたい気持ちです。",
+    "template": "Now I __0__ talking about my favorite soccer player with my classmates.",
+    "blanks": [
+      "feel like"
+    ],
+    "category": "term_worksheet",
+    "difficulty": "medium"
   }
 ]

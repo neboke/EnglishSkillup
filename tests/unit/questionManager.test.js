@@ -1,7 +1,8 @@
 /**
  * QuestionManager のユニットテスト
  */
-const QuestionManager = require('../../src/questionManager');
+import { jest } from '@jest/globals';
+import QuestionManager from '../../src/questionManager.js';
 
 // fetchのモック
 global.fetch = jest.fn();

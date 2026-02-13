@@ -1,6 +1,6 @@
-module.exports = {
+export default {
   testEnvironment: 'jsdom',
   testMatch: ['**/tests/**/*.test.js'],
   collectCoverageFrom: ['src/**/*.js'],
-  setupFilesAfterEnv: ['@testing-library/jest-dom']
+  setupFilesAfterEnv: ['@testing-library/jest-dom'],
 };

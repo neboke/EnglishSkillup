@@ -1,7 +1,7 @@
 /**
  * StorageManager のユニットテスト
  */
-const StorageManager = require('../../src/storage');
+import StorageManager from '../../src/storage.js';
 
 describe('StorageManager', () => {
   let storage;
