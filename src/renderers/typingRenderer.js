@@ -14,6 +14,10 @@ class TypingRenderer {
    * @returns {string} HTML文字列
    */
   static render(question) {
+    const promptLabel = question.promptLabel || '日本語:';
+    const answerLabel = question.answerLabel || '英語をタイプしてください:';
+    const promptText = question.promptText ?? question.japanese ?? '';
+
     return `
       <div class="typing-question">
         <div class="question-category">
@@ -21,12 +25,12 @@ class TypingRenderer {
         </div>
         
         <div class="question-prompt">
-          <div class="label">日本語:</div>
-          <div class="japanese-text">${this.escapeHtml(question.japanese)}</div>
+          <div class="label">${this.escapeHtml(promptLabel)}</div>
+          <div class="japanese-text">${this.escapeHtml(promptText)}</div>
         </div>
 
         <div class="answer-input-section">
-          <div class="label">英語をタイプしてください:</div>
+          <div class="label">${this.escapeHtml(answerLabel)}</div>
           <input 
             type="text" 
             id="typing-input" 
@@ -68,12 +72,24 @@ class TypingRenderer {
    * @returns {Object} {isCorrect, userAnswer, correctAnswer}
    */
   static validate(question, userAnswer) {
-    const normalizedAnswer = String(userAnswer || '').trim().toLowerCase();
-    const correctAnswer = String(question.english || '').trim().toLowerCase();
+    const normalize = (value, lang = 'en') => {
+      const text = String(value || '').trim().replace(/\s+/g, ' ');
+      return lang === 'ja' ? text : text.toLowerCase();
+    };
+
+    const answerLang = question.answerLang || 'en';
+    const candidates = Array.isArray(question.acceptableAnswers)
+      ? question.acceptableAnswers
+      : [question.answerText ?? question.english ?? ''];
+
+    const normalizedAnswer = normalize(userAnswer, answerLang);
+    const normalizedCandidates = candidates.map(candidate => normalize(candidate, answerLang));
+    const isCorrect = normalizedCandidates.includes(normalizedAnswer);
+
     return {
-      isCorrect: normalizedAnswer === correctAnswer,
+      isCorrect,
       userAnswer: normalizedAnswer,
-      correctAnswer
+      correctAnswer: candidates[0] || ''
     };
   }
 

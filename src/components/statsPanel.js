@@ -48,7 +48,8 @@ class StatsPanel {
     const typeLabels = {
       verb: '不規則動詞',
       choice: '選択問題',
-      reorder: '並び替え'
+      reorder: '並び替え',
+      typing: 'タイピング'
     };
 
     let html = '';

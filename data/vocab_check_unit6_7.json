@@ -1,0 +1,514 @@
+[
+  {
+    "id": "vocab_u6u7_001",
+    "type": "typing",
+    "japanese": "結論",
+    "english": "conclusion",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_002",
+    "type": "typing",
+    "japanese": "グラフ",
+    "english": "graph",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_003",
+    "type": "typing",
+    "japanese": "半分",
+    "english": "half",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_004",
+    "type": "typing",
+    "japanese": "パーセント",
+    "english": "percent",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_005",
+    "type": "typing",
+    "japanese": "そのような",
+    "english": "such",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_006",
+    "type": "typing",
+    "japanese": "よりよい",
+    "english": "better",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_007",
+    "type": "typing",
+    "japanese": "〜によると",
+    "english": "according to",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_008",
+    "type": "typing",
+    "japanese": "〜について言えば",
+    "english": "as for",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_009",
+    "type": "typing",
+    "japanese": "結論として",
+    "english": "in conclusion",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_010",
+    "type": "typing",
+    "japanese": "〜より多い",
+    "english": "more than",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_011",
+    "type": "typing",
+    "japanese": "〜のような（例）",
+    "english": "such as",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_012",
+    "type": "typing",
+    "japanese": "賛成（返答）",
+    "english": "yes",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_013",
+    "type": "typing",
+    "japanese": "〜に気がつく／わかる",
+    "english": "find",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_014",
+    "type": "typing",
+    "japanese": "最もよく／いちばん",
+    "english": "best",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_015",
+    "type": "typing",
+    "japanese": "第1の",
+    "english": "first",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_016",
+    "type": "typing",
+    "japanese": "それから／次に",
+    "english": "then",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_017",
+    "type": "typing",
+    "japanese": "〜として",
+    "english": "as",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_018",
+    "type": "typing",
+    "japanese": "コメント",
+    "english": "comment",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_019",
+    "type": "typing",
+    "japanese": "接触、連絡",
+    "english": "contact",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_020",
+    "type": "typing",
+    "japanese": "内容",
+    "english": "content",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_021",
+    "type": "typing",
+    "japanese": "データ",
+    "english": "data",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_022",
+    "type": "typing",
+    "japanese": "話しぶり／伝え方",
+    "english": "delivery",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_023",
+    "type": "typing",
+    "japanese": "フィードバック",
+    "english": "feedback",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_024",
+    "type": "typing",
+    "japanese": "文字",
+    "english": "letter",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_025",
+    "type": "typing",
+    "japanese": "スライド",
+    "english": "slide",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_026",
+    "type": "typing",
+    "japanese": "話し手",
+    "english": "speaker",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_027",
+    "type": "typing",
+    "japanese": "話題",
+    "english": "topic",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_028",
+    "type": "typing",
+    "japanese": "はっきりした",
+    "english": "clear",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_029",
+    "type": "typing",
+    "japanese": "アイコンタクト",
+    "english": "eye contact",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_030",
+    "type": "typing",
+    "japanese": "話す（過去形）",
+    "english": "spoke",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_031",
+    "type": "typing",
+    "japanese": "はっきり（副詞）",
+    "english": "clearly",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_032",
+    "type": "typing",
+    "japanese": "簡単に／すぐに",
+    "english": "easily",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_033",
+    "type": "typing",
+    "japanese": "第2の",
+    "english": "second",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_034",
+    "type": "typing",
+    "japanese": "〜と同じくらい",
+    "english": "as ... as",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_035",
+    "type": "typing",
+    "japanese": "〜したい気がする",
+    "english": "feel like ...ing",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_036",
+    "type": "typing",
+    "japanese": "会議",
+    "english": "conference",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_037",
+    "type": "typing",
+    "japanese": "遺産",
+    "english": "heritage",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_038",
+    "type": "typing",
+    "japanese": "選択",
+    "english": "selection",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_039",
+    "type": "typing",
+    "japanese": "場所／遺跡",
+    "english": "site",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_040",
+    "type": "typing",
+    "japanese": "基準",
+    "english": "standard",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_041",
+    "type": "typing",
+    "japanese": "決める",
+    "english": "decide",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_042",
+    "type": "typing",
+    "japanese": "選ぶ",
+    "english": "select",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_043",
+    "type": "typing",
+    "japanese": "文化の",
+    "english": "cultural",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_044",
+    "type": "typing",
+    "japanese": "全体の／総会の",
+    "english": "general",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_045",
+    "type": "typing",
+    "japanese": "混合の",
+    "english": "mixed",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_046",
+    "type": "typing",
+    "japanese": "自然の",
+    "english": "natural",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_047",
+    "type": "typing",
+    "japanese": "ユネスコ",
+    "english": "UNESCO",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_048",
+    "type": "typing",
+    "japanese": "世界遺産",
+    "english": "World Heritage site",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_049",
+    "type": "typing",
+    "japanese": "タイプ、種類",
+    "english": "type",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_050",
+    "type": "typing",
+    "japanese": "貴重な",
+    "english": "precious",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_051",
+    "type": "typing",
+    "japanese": "特有の／独特な",
+    "english": "unique",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_052",
+    "type": "typing",
+    "japanese": "多様性",
+    "english": "diversity",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_053",
+    "type": "typing",
+    "japanese": "故郷",
+    "english": "hometown",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_054",
+    "type": "typing",
+    "japanese": "植物",
+    "english": "plant",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_055",
+    "type": "typing",
+    "japanese": "地域",
+    "english": "region",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_056",
+    "type": "typing",
+    "japanese": "種（しゅ）",
+    "english": "species",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_057",
+    "type": "typing",
+    "japanese": "すばらしい",
+    "english": "fantastic",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_058",
+    "type": "typing",
+    "japanese": "花の",
+    "english": "floral",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_059",
+    "type": "typing",
+    "japanese": "知っている（過去分詞）",
+    "english": "known",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_060",
+    "type": "typing",
+    "japanese": "ルイボス",
+    "english": "rooibos",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_061",
+    "type": "typing",
+    "japanese": "ケープ植物区",
+    "english": "the Cape Floral Region",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_062",
+    "type": "typing",
+    "japanese": "茶、紅茶",
+    "english": "tea",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_063",
+    "type": "typing",
+    "japanese": "〜を（〜と）呼ぶ",
+    "english": "call",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  },
+  {
+    "id": "vocab_u6u7_064",
+    "type": "typing",
+    "japanese": "南アフリカ共和国",
+    "english": "the Republic of South Africa",
+    "category": "vocab_check",
+    "categoryName": "Unit6-7 語句チェック"
+  }
+]

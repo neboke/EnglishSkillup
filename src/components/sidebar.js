@@ -27,6 +27,10 @@ class Sidebar {
                 <input type="radio" name="exam-mode" value="term">
                 <span>200語習得</span>
               </label>
+              <label class="mode-option">
+                <input type="radio" name="exam-mode" value="vocab">
+                <span>語句チェック</span>
+              </label>
             </div>
           </div>
 
@@ -70,6 +74,23 @@ class Sidebar {
             </div>
           </div>
 
+          <!-- 語句チェックモード -->
+          <div id="vocab-mode" class="exam-mode-content" style="display: none;">
+            <div class="term-section">
+              <h4>出題方向</h4>
+              <div class="term-options">
+                <label class="term-option">
+                  <input type="radio" name="vocab-direction" value="ja_to_en" checked>
+                  <span>日本語 → 英語</span>
+                </label>
+                <label class="term-option">
+                  <input type="radio" name="vocab-direction" value="both">
+                  <span>両方向（日本語⇄英語）</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
           <!-- フィルター選択 -->
           <div class="filter-section">
             <h4>問題範囲</h4>
@@ -89,6 +110,10 @@ class Sidebar {
               <label class="filter-option">
                 <input type="radio" name="filter" value="reorder">
                 <span>並び替え問題</span>
+              </label>
+              <label class="filter-option">
+                <input type="radio" name="filter" value="typing">
+                <span>タイピング問題</span>
               </label>
               <label class="filter-option">
                 <input type="radio" name="filter" value="incorrect">
@@ -159,6 +184,19 @@ class Sidebar {
   static onFileChange(callback) {
     const fileInputs = document.querySelectorAll('input[name="question-file"]');
     fileInputs.forEach(input => {
+      input.addEventListener('change', (e) => {
+        callback(e.target.value);
+      });
+    });
+  }
+
+  /**
+   * 語句チェックの出題方向変更イベントリスナーを設定
+   * @param {Function} callback - (direction) => void
+   */
+  static onVocabDirectionChange(callback) {
+    const directionInputs = document.querySelectorAll('input[name="vocab-direction"]');
+    directionInputs.forEach(input => {
       input.addEventListener('change', (e) => {
         callback(e.target.value);
       });
@@ -255,6 +293,24 @@ class Sidebar {
   static getSelectedTerm() {
     const selected = document.querySelector('input[name="term"]:checked');
     return selected ? selected.value : 'term1';
+  }
+
+  /**
+   * 現在選択されている問題ファイル種別を取得
+   * @returns {string} ファイル種別
+   */
+  static getSelectedFileType() {
+    const selected = document.querySelector('input[name="question-file"]:checked');
+    return selected ? selected.value : 'verbs';
+  }
+
+  /**
+   * 語句チェックの出題方向を取得
+   * @returns {string} 'ja_to_en' or 'both'
+   */
+  static getSelectedVocabDirection() {
+    const selected = document.querySelector('input[name="vocab-direction"]:checked');
+    return selected ? selected.value : 'ja_to_en';
   }
 
   /**

@@ -63,6 +63,13 @@ class QuizApp {
           termInput.checked = true;
         }
         await this.loadQuestions(null, savedTerm);
+      } else if (examMode === 'vocab') {
+        const savedDirection = settings.vocabDirection || 'ja_to_en';
+        const directionInput = document.querySelector(`input[name="vocab-direction"][value="${savedDirection}"]`);
+        if (directionInput) {
+          directionInput.checked = true;
+        }
+        await this.loadQuestions('vocab', null, savedDirection);
       } else {
         const savedFileType = settings.fileType || 'verbs';
         const fileTypeInput = document.querySelector(`input[name="question-file"][value="${savedFileType}"]`);
@@ -106,10 +113,14 @@ class QuizApp {
    * 問題データを読み込み
    * @param {string} fileType - 'verbs', 'sentences', または null（デフォルト）
    * @param {string} termId - 'term1', 'term2', ... または null
+   * @param {string} vocabDirection - 'ja_to_en' or 'both'
    */
-  async loadQuestions(fileType = null, termId = null) {
+  async loadQuestions(fileType = null, termId = null, vocabDirection = null) {
     if (termId) {
       this.allQuestions = await this.questionManager.loadQuestionsByTerm(termId);
+    } else if (fileType === 'vocab') {
+      const rawQuestions = await this.questionManager.loadQuestionsByType('vocab');
+      this.allQuestions = this.buildVocabQuestions(rawQuestions, vocabDirection || 'ja_to_en');
     } else if (fileType) {
       this.allQuestions = await this.questionManager.loadQuestionsByType(fileType);
     } else {
@@ -125,14 +136,82 @@ class QuizApp {
   updateExamModeUI(mode) {
     const finalsModeDiv = document.getElementById('finals-mode');
     const termModeDiv = document.getElementById('term-mode');
+    const vocabModeDiv = document.getElementById('vocab-mode');
     
     if (mode === 'term') {
       finalsModeDiv.style.display = 'none';
       termModeDiv.style.display = 'block';
+      vocabModeDiv.style.display = 'none';
+    } else if (mode === 'vocab') {
+      finalsModeDiv.style.display = 'none';
+      termModeDiv.style.display = 'none';
+      vocabModeDiv.style.display = 'block';
     } else {
       finalsModeDiv.style.display = 'block';
       termModeDiv.style.display = 'none';
+      vocabModeDiv.style.display = 'none';
     }
+  }
+
+  /**
+   * 語句チェック問題を出題方向に応じて変換
+   * @param {Array<Object>} questions
+   * @param {string} direction - 'ja_to_en' | 'both'
+   * @returns {Array<Object>}
+   */
+  buildVocabQuestions(questions, direction) {
+    if (!Array.isArray(questions)) {
+      return [];
+    }
+
+    const jaToEn = questions.map(q => this.toJaToEnQuestion(q));
+
+    if (direction !== 'both') {
+      return jaToEn;
+    }
+
+    const enToJa = questions.map(q => this.toEnToJaQuestion(q));
+    return [...jaToEn, ...enToJa];
+  }
+
+  /**
+   * 日本語→英語のtyping問題へ変換
+   * @param {Object} q
+   * @returns {Object}
+   */
+  toJaToEnQuestion(q) {
+    return {
+      ...q,
+      id: `${q.id}_ja2en`,
+      type: 'typing',
+      promptText: q.japanese,
+      answerText: q.english,
+      acceptableAnswers: [q.english],
+      promptLabel: '日本語:',
+      answerLabel: '英語をタイプしてください:',
+      answerLang: 'en',
+      pronunciationText: q.english
+    };
+  }
+
+  /**
+   * 英語→日本語のtyping問題へ変換
+   * @param {Object} q
+   * @returns {Object}
+   */
+  toEnToJaQuestion(q) {
+    return {
+      ...q,
+      id: `${q.id}_en2ja`,
+      type: 'typing',
+      promptText: q.english,
+      answerText: q.japanese,
+      acceptableAnswers: [q.japanese],
+      promptLabel: '英語:',
+      answerLabel: '日本語をタイプしてください:',
+      answerLang: 'ja',
+      pronunciationText: q.english
+    };
   }
 
   /**
@@ -150,13 +229,17 @@ class QuizApp {
         accuracyThreshold: Sidebar.getThreshold(),
         examMode: mode,
         fileType: mode === 'finals' ? Sidebar.getSelectedFileType() : undefined,
-        termId: mode === 'term' ? Sidebar.getSelectedTerm() : undefined
+        termId: mode === 'term' ? Sidebar.getSelectedTerm() : undefined,
+        vocabDirection: mode === 'vocab' ? Sidebar.getSelectedVocabDirection() : undefined
       });
       
       // 問題を再読み込み
       if (mode === 'term') {
         const termId = Sidebar.getSelectedTerm();
         await this.loadQuestions(null, termId);
+      } else if (mode === 'vocab') {
+        const vocabDirection = Sidebar.getSelectedVocabDirection();
+        await this.loadQuestions('vocab', null, vocabDirection);
       } else {
         const fileType = Sidebar.getSelectedFileType();
         await this.loadQuestions(fileType);
@@ -169,6 +252,31 @@ class QuizApp {
       }
       
       // フィルターを適用して表示
+      this.applyFilter();
+      this.showCurrentQuestion();
+      this.updateStatsPanel();
+    });
+
+    // 語句チェック方向変更
+    Sidebar.onVocabDirectionChange(async (direction) => {
+      if (Sidebar.getSelectedExamMode() !== 'vocab') {
+        return;
+      }
+
+      this.storage.saveSettings({
+        filterType: Sidebar.getSelectedFilter(),
+        accuracyThreshold: Sidebar.getThreshold(),
+        examMode: 'vocab',
+        vocabDirection: direction
+      });
+
+      await this.loadQuestions('vocab', null, direction);
+
+      const allFilterInput = document.querySelector('input[name="filter"][value="all"]');
+      if (allFilterInput) {
+        allFilterInput.checked = true;
+      }
+
       this.applyFilter();
       this.showCurrentQuestion();
       this.updateStatsPanel();
@@ -605,7 +713,7 @@ class QuizApp {
       return;
     }
 
-    const answer = String(question.english || '').trim();
+    const answer = String(question.pronunciationText || question.english || '').trim();
     if (!answer) {
       return;
     }

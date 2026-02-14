@@ -11,7 +11,8 @@ class QuestionManager {
     ];
     this.fileMap = {
       'verbs': 'data/questions_finals_verbs.json',
-      'sentences': 'data/questions_finals_sentences.json'
+      'sentences': 'data/questions_finals_sentences.json',
+      'vocab': 'data/vocab_check_unit6_7.json'
     };
     this.termMap = {
       'term1': 'data/term1_basic200.json',
@@ -164,7 +165,8 @@ class QuestionManager {
     const counts = {
       verb: 0,
       choice: 0,
-      reorder: 0
+      reorder: 0,
+      typing: 0
     };
     
     this.questions.forEach(q => {
